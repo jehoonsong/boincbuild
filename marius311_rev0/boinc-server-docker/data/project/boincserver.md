@@ -1,0 +1,72 @@
+
+Steps to complete installation:
+
+# Change Apache configuration (as root):
+
+If you are using Apache 2.4, edit the `/home/boincadm/project/${project}.httpd.conf`
+   (see file for specific instructions).
+
+`cat /home/boincadm/project/${project}.httpd.conf >> \
+ /etc/apache/httpd.conf`
+
+(path to `httpd.conf` varies; try `/etc/httpd/` or `/etc/apache2` )
+
+Then restart the web server:
+
+`/usr/sbin/apache2ctl restart`
+(or `/usr/sbin/apachectl restart`)
+
+# Add to crontab (as boincadm)
+
+Run `crontab -e`
+
+and add the line:
+
+```
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * cd /home/boincadm/project ; /home/boincadm/project/bin/start --cron
+```
+
+# In the project home directory (/home/boincadm/project) run
+
+```
+bin/xadd
+```
+
+# Add a .htpasswd file in the project's html/ops directory:
+(You'll need this to access the project's Administrative page)
+```
+ htpasswd -c .htpasswd username
+```
+
+# Add the project name and copyright holder for the boinc Web site:
+
+edit `html/project/project.inc`
+
+and change `PROJECT` and `COPYRIGHT_HOLDER`
+
+---
+
+To start, show status, and stop the project, run:
+```
+bin/start
+bin/status
+bin/stop
+```
+
+The project's URLs are:
+
+Home page (and master URL): 
+
+`http://${url_host}/${project}/`
+
+Administrative page:        
+
+`http://${url_host}/${project}_ops/`
+
+---
+
+To use this project for your own computations, you'll need to
+- Port your application(s) and add them
+- Develop programs to submit and handle jobs
+See the online documentation at http://boinc.berkeley.edu/
+

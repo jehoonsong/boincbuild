@@ -1,0 +1,6 @@
+
+AuthName "${project}"
+AuthType Basic
+AuthUserFile /home/boincadm/project//html/ops/.htpasswd
+require valid-user
+

@@ -1,0 +1,5 @@
+
+AuthName "hello"
+AuthType Basic
+AuthUserFile /projects/hello//html/ops/.htpasswd
+require valid-user

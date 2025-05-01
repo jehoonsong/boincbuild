@@ -1,0 +1,35 @@
+ls
+exit
+ll
+ls
+ll
+ls
+_autosetup
+./_autosetup 
+./configure --disable-client --disable-manager 
+ls
+make clean
+ls
+./configure --disable-client --disable-manager 
+make -j30
+make 
+ls
+make 
+ll
+ls
+./configure --disable-client --disable-manager --enable-apps 
+make 
+ls
+pwd
+ll
+ls
+cd tools/
+ls
+pwd
+ll
+ls
+./make_project --db_passwd foobar99 --url_base http://192.168.42.17 test
+export USER=boincadm
+./make_project --db_passwd foobar99 --url_base http://192.168.42.17 test
+./make_project --help
+exit

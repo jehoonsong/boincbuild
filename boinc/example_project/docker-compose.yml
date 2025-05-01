@@ -1,0 +1,68 @@
+# version: "3.4"
+
+volumes:
+  mysql:
+  project:
+  results:
+  secrets:
+  
+
+services:
+  mysql:
+    build: 
+      context: images/mysql
+      # platform: linux/arm64
+    volumes:
+      - "mysql:/var/lib/mysql"
+    
+  # makeproject:
+  #   build: 
+  #     context: images/makeproject
+  #     args:
+  #       - BOINC_USER
+  #       - PROJECT_ROOT
+  #   volumes:
+  #     - "project:$PROJECT_ROOT.dst"
+  #     - "secrets:/run/secrets"
+  #   hostname: makeproject
+  #   environment:
+  #     - URL_BASE
+  #     - PROJECT
+
+  apache:
+    build: 
+      context: images/apache
+      args:
+        - BOINC_USER
+        - PROJECT_ROOT
+    hostname: $PROJECT
+    depends_on:
+      - mysql
+    volumes: 
+      - "${PWD}/apps:/apps"
+      # - "project:$PROJECT_ROOT"
+      - "${PWD}/images/apache/setup.sh:/home/boincadm/setup.sh"
+      - "${PWD}/projects:/projects"
+      # - "results:/results"
+      # - "secrets:/run/secrets"
+      # - "/dev/null:/run/secrets/keys/code_sign_private"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    ports: 
+      - "80:80"
+    tty: true
+    # command: bash /setup.sh
+    command:  bash 
+    environment:
+      - URL_BASE
+      - PROJECT
+
+  # client:
+  #   build: 
+  #     context: images/client
+  #     # platform: linux/arm64
+  #   volumes:
+  #     - "${PWD}/client:/data"
+  #   networks:
+  #     - my_network
+
+# datadir=/Users/jehoons/boinc-server-docker/data docker-compose up 

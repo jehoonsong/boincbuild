@@ -1,0 +1,64 @@
+<client_state>
+<host_info>
+    <timezone>0</timezone>
+    <domain_name>boincserver</domain_name>
+    <ip_addr>172.19.0.3</ip_addr>
+    <host_cpid>9bc80266bfc5ebc7a6c19e61536b2f95</host_cpid>
+    <p_ncpus>10</p_ncpus>
+    <p_vendor>ARM</p_vendor>
+    <p_model> [Impl 0x61 Arch 8 Variant 0x0 Part 0x000 Rev 0]</p_model>
+    <p_features>fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint</p_features>
+    <p_fpops>1000000000.000000</p_fpops>
+    <p_iops>1000000000.000000</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1746081535.068791</p_calculated>
+    <p_vm_extensions_disabled>0</p_vm_extensions_disabled>
+    <m_nbytes>8217968640.000000</m_nbytes>
+    <m_cache>-1.000000</m_cache>
+    <m_swap>1073737728.000000</m_swap>
+    <d_total>1995218165760.000000</d_total>
+    <d_free>622727254016.000000</d_free>
+    <os_name>Linux Ubuntu</os_name>
+    <os_version>Ubuntu 24.04.2 LTS [6.10.14-linuxkit|libc 2.39]</os_version>
+    <n_usable_coprocs>0</n_usable_coprocs>
+    <wsl_available>0</wsl_available>
+    <coprocs>
+    </coprocs>
+</host_info>
+<time_stats>
+    <on_frac>1.000000</on_frac>
+    <connected_frac>1.000000</connected_frac>
+    <cpu_and_network_available_frac>1.000000</cpu_and_network_available_frac>
+    <active_frac>1.000000</active_frac>
+    <gpu_active_frac>1.000000</gpu_active_frac>
+    <client_start_time>1746081535.068791</client_start_time>
+    <total_start_time>1746081535.095461</total_start_time>
+    <total_duration>0.000000</total_duration>
+    <total_active_duration>0.000000</total_active_duration>
+    <total_gpu_active_duration>0.000000</total_gpu_active_duration>
+    <previous_uptime>2.027876</previous_uptime>
+    <last_update>1746081535.095461</last_update>
+</time_stats>
+<net_stats>
+    <bwup>0.000000</bwup>
+    <avg_up>0.000000</avg_up>
+    <avg_time_up>0.000000</avg_time_up>
+    <bwdown>6067329.762815</bwdown>
+    <avg_down>524213019738.781494</avg_down>
+    <avg_time_down>1746081536.888423</avg_time_down>
+</net_stats>
+<active_task_set>
+</active_task_set>
+<platform_name>aarch64-unknown-linux-gnu</platform_name>
+<core_client_major_version>7</core_client_major_version>
+<core_client_minor_version>21</core_client_minor_version>
+<core_client_release>0</core_client_release>
+<user_run_request>2</user_run_request>
+<user_run_prev_request>2</user_run_prev_request>
+<user_gpu_request>2</user_gpu_request>
+<user_gpu_prev_request>2</user_gpu_prev_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>0.000000</new_version_check_time>
+<all_projects_list_check_time>0.000000</all_projects_list_check_time>
+<client_version_check_url>https://boinc.berkeley.edu/download.php?xml=1</client_version_check_url>
+</client_state>
