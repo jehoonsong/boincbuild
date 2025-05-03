@@ -1,18 +1,3 @@
-# FROM boinc/client:latest 
-
-# RUN apt-get update && apt-get install -y \
-#     iputils-ping nano vim 
-
-# RUN apt-get update && apt-get install -y cron
-
-# RUN service cron start
-
-# COPY start-boinc.sh /usr/bin/start-boinc.sh
-
-# RUN chmod +x /usr/bin/start-boinc.sh
-
-# CMD ["start-boinc.sh"]
-
 FROM boinc/client:base-ubuntu
 
 LABEL maintainer="BOINC" \

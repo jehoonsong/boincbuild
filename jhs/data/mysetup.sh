@@ -10,3 +10,6 @@ cp -v project.xml /home/boincadm/project/
 
 # cp -v makeproject-step3.sh /usr/bin/
 # cp -v sources.list /etc/apt/sources.list
+
+crontab -l 2>/dev/null | grep -q "bin/start --cron" || \
+(crontab -l 2>/dev/null; echo "*/5 * * * * cd /home/boincadm/project && bin/start --cron") | crontab -
