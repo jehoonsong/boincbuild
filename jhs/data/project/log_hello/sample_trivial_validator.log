@@ -1,0 +1,510 @@
+[2025/05/03 06:18:00] Executing command: sample_trivial_validator -app boinc2docker
+2025-05-03 06:18:01.3237  max_granted_credit: 73000000.000000
+2025-05-03 06:18:01.3267  Starting validator, debug level 3
+GOT STOP SIGNAL
+2025-05-03 08:08:56.1496  Quitting due to SIGHUP
+[2025/05/03 08:08:56] Executing command: sample_trivial_validator -app boinc2docker
+2025-05-03 08:08:57.2246  max_granted_credit: 73000000.000000
+2025-05-03 08:08:57.2277  Starting validator, debug level 3
+Traceback (most recent call last):
+  File "bin/start", line 794, in <module>
+    apply(command)
+  File "bin/start", line 560, in command_enable_start
+    found_any = run_daemons()
+  File "bin/start", line 472, in run_daemons
+    run_daemon(task)
+  File "bin/start", line 457, in run_daemon
+    write_pid_file(get_daemon_pid_name(task))
+  File "bin/start", line 300, in write_pid_file
+    print >>open(pidfile,'w'), os.getpid()
+IOError: [Errno 13] Permission denied: u'/home/boincadm/project/pid_hello/sample_trivial_validator.pid'
+[2025/05/03 08:14:39] Executing command: sample_trivial_validator -app boinc2docker
+2025-05-03 08:14:39.9634  max_granted_credit: 73000000.000000
+2025-05-03 08:14:39.9665  Starting validator, debug level 3
+GOT STOP SIGNAL
+2025-05-03 08:16:25.6170  Quitting due to SIGHUP
+[2025/05/03 08:16:29] Executing command: sample_trivial_validator -app myapp
+2025-05-03 08:16:29.6140  max_granted_credit: 73000000.000000
+2025-05-03 08:16:29.6169  Starting validator, debug level 3
+2025-05-03 08:16:29.6241  [WU#7 myapp_214_1746253622.413602] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6314   [RESULT#263 myapp_214_1746253622.413602_2] Valid; granted 0.018807 credit [HOST#2]
+2025-05-03 08:16:29.6314   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2025-05-03 08:16:29.6354   [RESULT#405 myapp_214_1746253622.413602_4] Valid; granted 0.018807 credit [HOST#2]
+2025-05-03 08:16:29.6355   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2025-05-03 08:16:29.6381  [WU#8 myapp_215_1746253622.462687] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6399   [RESULT#406 myapp_215_1746253622.462687_4] Valid; granted 0.018814 credit [HOST#2]
+2025-05-03 08:16:29.6400   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=1.000000->2.000000
+2025-05-03 08:16:29.6440   [RESULT#407 myapp_215_1746253622.462687_5] Valid; granted 0.018814 credit [HOST#2]
+2025-05-03 08:16:29.6441   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=1.000000->2.000000
+2025-05-03 08:16:29.6468  [WU#9 myapp_216_1746253622.516581] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6484   [RESULT#408 myapp_216_1746253622.516581_4] Valid; granted 0.021114 credit [HOST#2]
+2025-05-03 08:16:29.6484   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=2.000000->3.000000
+2025-05-03 08:16:29.6528   [RESULT#409 myapp_216_1746253622.516581_5] Valid; granted 0.021114 credit [HOST#2]
+2025-05-03 08:16:29.6528   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=2.000000->3.000000
+2025-05-03 08:16:29.6548  [WU#10 myapp_217_1746253622.568108] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6560   [RESULT#410 myapp_217_1746253622.568108_4] Valid; granted 0.017608 credit [HOST#2]
+2025-05-03 08:16:29.6560   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=3.000000->4.000000
+2025-05-03 08:16:29.6581   [RESULT#411 myapp_217_1746253622.568108_5] Valid; granted 0.017608 credit [HOST#2]
+2025-05-03 08:16:29.6581   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=3.000000->4.000000
+2025-05-03 08:16:29.6621  [WU#11 myapp_218_1746253622.620492] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6633   [RESULT#412 myapp_218_1746253622.620492_4] Valid; granted 0.019973 credit [HOST#2]
+2025-05-03 08:16:29.6633   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=4.000000->5.000000
+2025-05-03 08:16:29.6656   [RESULT#413 myapp_218_1746253622.620492_5] Valid; granted 0.019973 credit [HOST#2]
+2025-05-03 08:16:29.6656   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=4.000000->5.000000
+2025-05-03 08:16:29.6687  [WU#12 myapp_219_1746253622.672746] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6699   [RESULT#414 myapp_219_1746253622.672746_4] Valid; granted 0.018809 credit [HOST#2]
+2025-05-03 08:16:29.6699   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=5.000000->6.000000
+2025-05-03 08:16:29.6727   [RESULT#415 myapp_219_1746253622.672746_5] Valid; granted 0.018809 credit [HOST#2]
+2025-05-03 08:16:29.6727   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=5.000000->6.000000
+2025-05-03 08:16:29.6758  [WU#13 myapp_220_1746253622.725363] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6770   [RESULT#416 myapp_220_1746253622.725363_4] Valid; granted 0.018770 credit [HOST#2]
+2025-05-03 08:16:29.6770   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2025-05-03 08:16:29.6792   [RESULT#417 myapp_220_1746253622.725363_5] Valid; granted 0.018770 credit [HOST#2]
+2025-05-03 08:16:29.6792   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2025-05-03 08:16:29.6812  [WU#14 myapp_221_1746253622.777375] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6824   [RESULT#278 myapp_221_1746253622.777375_3] Valid; granted 0.014101 credit [HOST#2]
+2025-05-03 08:16:29.6824   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2025-05-03 08:16:29.6863   [RESULT#418 myapp_221_1746253622.777375_4] Valid; granted 0.014101 credit [HOST#2]
+2025-05-03 08:16:29.6863   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2025-05-03 08:16:29.6879  [WU#15 myapp_222_1746253622.828803] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6891   [RESULT#279 myapp_222_1746253622.828803_2] Valid; granted 0.017653 credit [HOST#2]
+2025-05-03 08:16:29.6891   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=8.000000->9.000000
+2025-05-03 08:16:29.6917   [RESULT#280 myapp_222_1746253622.828803_3] Valid; granted 0.017653 credit [HOST#2]
+2025-05-03 08:16:29.6917   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=8.000000->9.000000
+2025-05-03 08:16:29.6945  [WU#25 myapp_232_1746253623.348187] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.6957   [RESULT#282 myapp_232_1746253623.348187_2] Valid; granted 0.017642 credit [HOST#2]
+2025-05-03 08:16:29.6957   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=9.000000->10.000000
+2025-05-03 08:16:29.6976   [RESULT#283 myapp_232_1746253623.348187_3] Valid; granted 0.017642 credit [HOST#2]
+2025-05-03 08:16:29.6976   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=9.000000->10.000000
+2025-05-03 08:16:29.6995  [WU#26 myapp_233_1746253623.400812] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7007   [RESULT#284 myapp_233_1746253623.400812_2] Valid; granted 0.018799 credit [HOST#2]
+2025-05-03 08:16:29.7007   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=10.000000->11.000000
+2025-05-03 08:16:29.7033   [RESULT#285 myapp_233_1746253623.400812_3] Valid; granted 0.018799 credit [HOST#2]
+2025-05-03 08:16:29.7033   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=10.000000->11.000000
+2025-05-03 08:16:29.7051  [WU#27 myapp_234_1746253623.452328] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7063   [RESULT#286 myapp_234_1746253623.452328_2] Valid; granted 0.022292 credit [HOST#2]
+2025-05-03 08:16:29.7063   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=11.000000->12.000000
+2025-05-03 08:16:29.7086   [RESULT#287 myapp_234_1746253623.452328_3] Valid; granted 0.022292 credit [HOST#2]
+2025-05-03 08:16:29.7086   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=11.000000->12.000000
+2025-05-03 08:16:29.7118  [WU#28 myapp_235_1746253623.504462] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7130   [RESULT#288 myapp_235_1746253623.504462_2] Valid; granted 0.018811 credit [HOST#2]
+2025-05-03 08:16:29.7130   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=12.000000->13.000000
+2025-05-03 08:16:29.7149   [RESULT#289 myapp_235_1746253623.504462_3] Valid; granted 0.018811 credit [HOST#2]
+2025-05-03 08:16:29.7150   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=12.000000->13.000000
+2025-05-03 08:16:29.7183  [WU#29 myapp_236_1746253623.559163] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7195   [RESULT#290 myapp_236_1746253623.559163_2] Valid; granted 0.017598 credit [HOST#2]
+2025-05-03 08:16:29.7195   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=13.000000->14.000000
+2025-05-03 08:16:29.7216   [RESULT#291 myapp_236_1746253623.559163_3] Valid; granted 0.017598 credit [HOST#2]
+2025-05-03 08:16:29.7217   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=13.000000->14.000000
+2025-05-03 08:16:29.7231  [WU#30 myapp_237_1746253623.610896] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7243   [RESULT#292 myapp_237_1746253623.610896_2] Valid; granted 0.016443 credit [HOST#2]
+2025-05-03 08:16:29.7243   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=14.000000->15.000000
+2025-05-03 08:16:29.7280   [RESULT#293 myapp_237_1746253623.610896_3] Valid; granted 0.016443 credit [HOST#2]
+2025-05-03 08:16:29.7280   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=14.000000->15.000000
+2025-05-03 08:16:29.7302  [WU#31 myapp_238_1746253623.663584] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7314   [RESULT#294 myapp_238_1746253623.663584_2] Valid; granted 0.022283 credit [HOST#2]
+2025-05-03 08:16:29.7314   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=15.000000->16.000000
+2025-05-03 08:16:29.7348   [RESULT#295 myapp_238_1746253623.663584_3] Valid; granted 0.022283 credit [HOST#2]
+2025-05-03 08:16:29.7348   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=15.000000->16.000000
+2025-05-03 08:16:29.7375  [WU#32 myapp_239_1746253623.714877] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7387   [RESULT#296 myapp_239_1746253623.714877_2] Valid; granted 0.021093 credit [HOST#2]
+2025-05-03 08:16:29.7387   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=16.000000->17.000000
+2025-05-03 08:16:29.7409   [RESULT#297 myapp_239_1746253623.714877_3] Valid; granted 0.021093 credit [HOST#2]
+2025-05-03 08:16:29.7409   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=16.000000->17.000000
+2025-05-03 08:16:29.7428  [WU#33 myapp_240_1746253623.767754] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7439   [RESULT#298 myapp_240_1746253623.767754_2] Valid; granted 0.021119 credit [HOST#2]
+2025-05-03 08:16:29.7439   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=17.000000->18.000000
+2025-05-03 08:16:29.7473   [RESULT#299 myapp_240_1746253623.767754_3] Valid; granted 0.021119 credit [HOST#2]
+2025-05-03 08:16:29.7473   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=17.000000->18.000000
+2025-05-03 08:16:29.7490  [WU#39 myapp_246_1746253624.081368] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7502   [RESULT#394 myapp_246_1746253624.081368_2] Valid; granted 0.017599 credit [HOST#2]
+2025-05-03 08:16:29.7502   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=18.000000->19.000000
+2025-05-03 08:16:29.7527   [RESULT#395 myapp_246_1746253624.081368_3] Valid; granted 0.017599 credit [HOST#2]
+2025-05-03 08:16:29.7527   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=18.000000->19.000000
+2025-05-03 08:16:29.7558  [WU#43 myapp_250_1746253624.289832] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7570   [RESULT#397 myapp_250_1746253624.289832_2] Valid; granted 0.022300 credit [HOST#2]
+2025-05-03 08:16:29.7570   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=19.000000->20.000000
+2025-05-03 08:16:29.7589   [RESULT#398 myapp_250_1746253624.289832_3] Valid; granted 0.022300 credit [HOST#2]
+2025-05-03 08:16:29.7589   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=19.000000->20.000000
+2025-05-03 08:16:29.7611  [WU#51 myapp_258_1746253624.708420] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7622   [RESULT#301 myapp_258_1746253624.708420_2] Valid; granted 0.019936 credit [HOST#2]
+2025-05-03 08:16:29.7623   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=20.000000->21.000000
+2025-05-03 08:16:29.7656   [RESULT#401 myapp_258_1746253624.708420_3] Valid; granted 0.019936 credit [HOST#2]
+2025-05-03 08:16:29.7656   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=20.000000->21.000000
+2025-05-03 08:16:29.7671  [WU#52 myapp_259_1746253624.761163] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7682   [RESULT#390 myapp_259_1746253624.761163_2] Valid; granted 0.018786 credit [HOST#2]
+2025-05-03 08:16:29.7682   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=21.000000->22.000000
+2025-05-03 08:16:29.7708   [RESULT#402 myapp_259_1746253624.761163_3] Valid; granted 0.018786 credit [HOST#2]
+2025-05-03 08:16:29.7708   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=21.000000->22.000000
+2025-05-03 08:16:29.7722  [WU#53 myapp_471_1746254617.644167] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7733   [RESULT#105 myapp_471_1746254617.644167_0] Valid; granted 0.019971 credit [HOST#2]
+2025-05-03 08:16:29.7733   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=22.000000->23.000000
+2025-05-03 08:16:29.7766   [RESULT#106 myapp_471_1746254617.644167_1] Valid; granted 0.019971 credit [HOST#2]
+2025-05-03 08:16:29.7767   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=22.000000->23.000000
+2025-05-03 08:16:29.7786  [WU#54 myapp_472_1746254618.503518] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7797   [RESULT#107 myapp_472_1746254618.503518_0] Valid; granted 0.016471 credit [HOST#2]
+2025-05-03 08:16:29.7798   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=23.000000->24.000000
+2025-05-03 08:16:29.7818   [RESULT#108 myapp_472_1746254618.503518_1] Valid; granted 0.016471 credit [HOST#2]
+2025-05-03 08:16:29.7818   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=23.000000->24.000000
+2025-05-03 08:16:29.7836  [WU#55 myapp_473_1746254618.756580] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7862   [RESULT#109 myapp_473_1746254618.756580_0] Valid; granted 0.019957 credit [HOST#2]
+2025-05-03 08:16:29.7862   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=24.000000->25.000000
+2025-05-03 08:16:29.7887   [RESULT#110 myapp_473_1746254618.756580_1] Valid; granted 0.019957 credit [HOST#2]
+2025-05-03 08:16:29.7887   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=24.000000->25.000000
+2025-05-03 08:16:29.7902  [WU#56 myapp_474_1746254618.803002] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7913   [RESULT#111 myapp_474_1746254618.803002_0] Valid; granted 0.019954 credit [HOST#2]
+2025-05-03 08:16:29.7913   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=25.000000->26.000000
+2025-05-03 08:16:29.7937   [RESULT#112 myapp_474_1746254618.803002_1] Valid; granted 0.019954 credit [HOST#2]
+2025-05-03 08:16:29.7937   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=25.000000->26.000000
+2025-05-03 08:16:29.7951  [WU#57 myapp_475_1746254618.856522] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.7976   [RESULT#113 myapp_475_1746254618.856522_0] Valid; granted 0.017598 credit [HOST#2]
+2025-05-03 08:16:29.7977   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=26.000000->27.000000
+2025-05-03 08:16:29.7995   [RESULT#114 myapp_475_1746254618.856522_1] Valid; granted 0.017598 credit [HOST#2]
+2025-05-03 08:16:29.7996   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=26.000000->27.000000
+2025-05-03 08:16:29.8011  [WU#58 myapp_476_1746254618.910382] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8028   [RESULT#115 myapp_476_1746254618.910382_0] Valid; granted 0.017597 credit [HOST#2]
+2025-05-03 08:16:29.8028   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=27.000000->28.000000
+2025-05-03 08:16:29.8049   [RESULT#302 myapp_476_1746254618.910382_2] Valid; granted 0.017597 credit [HOST#2]
+2025-05-03 08:16:29.8049   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=27.000000->28.000000
+2025-05-03 08:16:29.8072  [WU#69 myapp_487_1746254619.482326] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8083   [RESULT#323 myapp_487_1746254619.482326_2] Valid; granted 0.007073 credit [HOST#2]
+2025-05-03 08:16:29.8083   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=28.000000->29.000000
+2025-05-03 08:16:29.8105   [RESULT#324 myapp_487_1746254619.482326_3] Valid; granted 0.007073 credit [HOST#2]
+2025-05-03 08:16:29.8105   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=28.000000->29.000000
+2025-05-03 08:16:29.8130  [WU#70 myapp_488_1746254619.535069] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8142   [RESULT#325 myapp_488_1746254619.535069_2] Valid; granted 0.016451 credit [HOST#2]
+2025-05-03 08:16:29.8142   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=29.000000->30.000000
+2025-05-03 08:16:29.8165   [RESULT#326 myapp_488_1746254619.535069_3] Valid; granted 0.016451 credit [HOST#2]
+2025-05-03 08:16:29.8165   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=29.000000->30.000000
+2025-05-03 08:16:29.8181  [WU#71 myapp_489_1746254619.589265] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8194   [RESULT#327 myapp_489_1746254619.589265_2] Valid; granted 0.016470 credit [HOST#2]
+2025-05-03 08:16:29.8195   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=30.000000->31.000000
+2025-05-03 08:16:29.8219   [RESULT#328 myapp_489_1746254619.589265_3] Valid; granted 0.016470 credit [HOST#2]
+2025-05-03 08:16:29.8219   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=30.000000->31.000000
+2025-05-03 08:16:29.8237  [WU#72 myapp_490_1746254619.639987] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8249   [RESULT#329 myapp_490_1746254619.639987_2] Valid; granted 0.010592 credit [HOST#2]
+2025-05-03 08:16:29.8249   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=31.000000->32.000000
+2025-05-03 08:16:29.8289   [RESULT#330 myapp_490_1746254619.639987_3] Valid; granted 0.010592 credit [HOST#2]
+2025-05-03 08:16:29.8290   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=31.000000->32.000000
+2025-05-03 08:16:29.8318  [WU#73 myapp_491_1746254619.692757] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8331   [RESULT#331 myapp_491_1746254619.692757_2] Valid; granted 0.016458 credit [HOST#2]
+2025-05-03 08:16:29.8331   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=32.000000->33.000000
+2025-05-03 08:16:29.8363   [RESULT#332 myapp_491_1746254619.692757_3] Valid; granted 0.016458 credit [HOST#2]
+2025-05-03 08:16:29.8364   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=32.000000->33.000000
+2025-05-03 08:16:29.8388  [WU#74 myapp_492_1746254619.744377] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8402   [RESULT#341 myapp_492_1746254619.744377_2] Valid; granted 0.018796 credit [HOST#2]
+2025-05-03 08:16:29.8403   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=33.000000->34.000000
+2025-05-03 08:16:29.8426   [RESULT#342 myapp_492_1746254619.744377_3] Valid; granted 0.018796 credit [HOST#2]
+2025-05-03 08:16:29.8426   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=33.000000->34.000000
+2025-05-03 08:16:29.8457  [WU#81 myapp_499_1746254620.111930] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8468   [RESULT#161 myapp_499_1746254620.111930_0] Valid; granted 0.019953 credit [HOST#2]
+2025-05-03 08:16:29.8468   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=34.000000->35.000000
+2025-05-03 08:16:29.8497   [RESULT#162 myapp_499_1746254620.111930_1] Valid; granted 0.019953 credit [HOST#2]
+2025-05-03 08:16:29.8497   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=34.000000->35.000000
+2025-05-03 08:16:29.8530  [WU#82 myapp_500_1746254620.163984] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8541   [RESULT#163 myapp_500_1746254620.163984_0] Valid; granted 0.018787 credit [HOST#2]
+2025-05-03 08:16:29.8541   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=35.000000->36.000000
+2025-05-03 08:16:29.8578   [RESULT#164 myapp_500_1746254620.163984_1] Valid; granted 0.018787 credit [HOST#2]
+2025-05-03 08:16:29.8578   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=35.000000->36.000000
+2025-05-03 08:16:29.8600  [WU#85 myapp_503_1746254620.322084] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8611   [RESULT#358 myapp_503_1746254620.322084_2] Valid; granted 0.021148 credit [HOST#2]
+2025-05-03 08:16:29.8612   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=36.000000->37.000000
+2025-05-03 08:16:29.8635   [RESULT#359 myapp_503_1746254620.322084_3] Valid; granted 0.021148 credit [HOST#2]
+2025-05-03 08:16:29.8635   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=36.000000->37.000000
+2025-05-03 08:16:29.8660  [WU#86 myapp_504_1746254620.374610] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8671   [RESULT#360 myapp_504_1746254620.374610_2] Valid; granted 0.019947 credit [HOST#2]
+2025-05-03 08:16:29.8671   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=37.000000->38.000000
+2025-05-03 08:16:29.8697   [RESULT#361 myapp_504_1746254620.374610_3] Valid; granted 0.019947 credit [HOST#2]
+2025-05-03 08:16:29.8698   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=37.000000->38.000000
+2025-05-03 08:16:29.8726  [WU#87 myapp_505_1746254620.427623] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8738   [RESULT#362 myapp_505_1746254620.427623_2] Valid; granted 0.019948 credit [HOST#2]
+2025-05-03 08:16:29.8738   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=38.000000->39.000000
+2025-05-03 08:16:29.8758   [RESULT#363 myapp_505_1746254620.427623_3] Valid; granted 0.019948 credit [HOST#2]
+2025-05-03 08:16:29.8758   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=38.000000->39.000000
+2025-05-03 08:16:29.8777  [WU#88 myapp_506_1746254620.479406] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8789   [RESULT#364 myapp_506_1746254620.479406_2] Valid; granted 0.012906 credit [HOST#2]
+2025-05-03 08:16:29.8789   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=39.000000->40.000000
+2025-05-03 08:16:29.8823   [RESULT#365 myapp_506_1746254620.479406_3] Valid; granted 0.012906 credit [HOST#2]
+2025-05-03 08:16:29.8824   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=39.000000->40.000000
+2025-05-03 08:16:29.8840  [WU#89 myapp_507_1746254620.533761] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8851   [RESULT#366 myapp_507_1746254620.533761_2] Valid; granted 0.017592 credit [HOST#2]
+2025-05-03 08:16:29.8851   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=40.000000->41.000000
+2025-05-03 08:16:29.8885   [RESULT#367 myapp_507_1746254620.533761_3] Valid; granted 0.017592 credit [HOST#2]
+2025-05-03 08:16:29.8885   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=40.000000->41.000000
+2025-05-03 08:16:29.8907  [WU#90 myapp_508_1746254620.586186] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8919   [RESULT#368 myapp_508_1746254620.586186_2] Valid; granted 0.017593 credit [HOST#2]
+2025-05-03 08:16:29.8919   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=41.000000->42.000000
+2025-05-03 08:16:29.8949   [RESULT#369 myapp_508_1746254620.586186_3] Valid; granted 0.017593 credit [HOST#2]
+2025-05-03 08:16:29.8949   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=41.000000->42.000000
+2025-05-03 08:16:29.8968  [WU#91 myapp_509_1746254620.637586] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.8980   [RESULT#370 myapp_509_1746254620.637586_2] Valid; granted 0.018780 credit [HOST#2]
+2025-05-03 08:16:29.8980   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=42.000000->43.000000
+2025-05-03 08:16:29.9013   [RESULT#371 myapp_509_1746254620.637586_3] Valid; granted 0.018780 credit [HOST#2]
+2025-05-03 08:16:29.9013   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=42.000000->43.000000
+2025-05-03 08:16:29.9036  [WU#92 myapp_510_1746254620.689699] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9048   [RESULT#372 myapp_510_1746254620.689699_2] Valid; granted 0.017584 credit [HOST#2]
+2025-05-03 08:16:29.9048   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=43.000000->44.000000
+2025-05-03 08:16:29.9075   [RESULT#373 myapp_510_1746254620.689699_3] Valid; granted 0.017584 credit [HOST#2]
+2025-05-03 08:16:29.9075   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=43.000000->44.000000
+2025-05-03 08:16:29.9101  [WU#94 myapp_512_1746254620.793544] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9114   [RESULT#420 myapp_512_1746254620.793544_2] Valid; granted 0.018779 credit [HOST#2]
+2025-05-03 08:16:29.9114   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=44.000000->45.000000
+2025-05-03 08:16:29.9137   [RESULT#421 myapp_512_1746254620.793544_3] Valid; granted 0.018779 credit [HOST#2]
+2025-05-03 08:16:29.9137   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=44.000000->45.000000
+2025-05-03 08:16:29.9152  [WU#95 myapp_513_1746254620.847565] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9163   [RESULT#422 myapp_513_1746254620.847565_2] Valid; granted 0.017618 credit [HOST#2]
+2025-05-03 08:16:29.9163   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=45.000000->46.000000
+2025-05-03 08:16:29.9201   [RESULT#423 myapp_513_1746254620.847565_3] Valid; granted 0.017618 credit [HOST#2]
+2025-05-03 08:16:29.9201   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=45.000000->46.000000
+2025-05-03 08:16:29.9220  [WU#96 myapp_514_1746254620.900338] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9231   [RESULT#424 myapp_514_1746254620.900338_2] Valid; granted 0.021095 credit [HOST#2]
+2025-05-03 08:16:29.9231   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=46.000000->47.000000
+2025-05-03 08:16:29.9250   [RESULT#425 myapp_514_1746254620.900338_3] Valid; granted 0.021095 credit [HOST#2]
+2025-05-03 08:16:29.9250   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=46.000000->47.000000
+2025-05-03 08:16:29.9268  [WU#97 myapp_515_1746254620.952025] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9280   [RESULT#333 myapp_515_1746254620.952025_2] Valid; granted 0.018766 credit [HOST#2]
+2025-05-03 08:16:29.9280   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=47.000000->48.000000
+2025-05-03 08:16:29.9385   [RESULT#426 myapp_515_1746254620.952025_3] Valid; granted 0.018766 credit [HOST#2]
+2025-05-03 08:16:29.9386   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=47.000000->48.000000
+2025-05-03 08:16:29.9436  [WU#98 myapp_516_1746254621.004442] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9463   [RESULT#427 myapp_516_1746254621.004442_2] Valid; granted 0.008266 credit [HOST#2]
+2025-05-03 08:16:29.9464   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=48.000000->49.000000
+2025-05-03 08:16:29.9500   [RESULT#428 myapp_516_1746254621.004442_3] Valid; granted 0.008266 credit [HOST#2]
+2025-05-03 08:16:29.9500   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=48.000000->49.000000
+2025-05-03 08:16:29.9535  [WU#99 myapp_517_1746254621.056638] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9547   [RESULT#429 myapp_517_1746254621.056638_2] Valid; granted 0.014107 credit [HOST#2]
+2025-05-03 08:16:29.9547   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=49.000000->50.000000
+2025-05-03 08:16:29.9568   [RESULT#430 myapp_517_1746254621.056638_3] Valid; granted 0.014107 credit [HOST#2]
+2025-05-03 08:16:29.9568   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=49.000000->50.000000
+2025-05-03 08:16:29.9587  [WU#100 myapp_518_1746254621.108475] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9604   [RESULT#431 myapp_518_1746254621.108475_2] Valid; granted 0.016425 credit [HOST#2]
+2025-05-03 08:16:29.9604   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=50.000000->51.000000
+2025-05-03 08:16:29.9628   [RESULT#432 myapp_518_1746254621.108475_3] Valid; granted 0.016425 credit [HOST#2]
+2025-05-03 08:16:29.9628   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=50.000000->51.000000
+2025-05-03 08:16:29.9647  [WU#101 myapp_519_1746254621.161330] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9663   [RESULT#433 myapp_519_1746254621.161330_2] Valid; granted 0.008264 credit [HOST#2]
+2025-05-03 08:16:29.9663   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=51.000000->52.000000
+2025-05-03 08:16:29.9688   [RESULT#434 myapp_519_1746254621.161330_3] Valid; granted 0.008264 credit [HOST#2]
+2025-05-03 08:16:29.9688   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=51.000000->52.000000
+2025-05-03 08:16:29.9704  [WU#102 myapp_520_1746254621.213358] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9722   [RESULT#435 myapp_520_1746254621.213358_2] Valid; granted 0.017623 credit [HOST#2]
+2025-05-03 08:16:29.9722   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=52.000000->53.000000
+2025-05-03 08:16:29.9747   [RESULT#436 myapp_520_1746254621.213358_3] Valid; granted 0.017623 credit [HOST#2]
+2025-05-03 08:16:29.9747   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=52.000000->53.000000
+2025-05-03 08:16:29.9765  [WU#103 myapp_521_1746254621.265379] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9777   [RESULT#334 myapp_521_1746254621.265379_2] Valid; granted 0.019932 credit [HOST#2]
+2025-05-03 08:16:29.9777   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=53.000000->54.000000
+2025-05-03 08:16:29.9807   [RESULT#437 myapp_521_1746254621.265379_3] Valid; granted 0.019932 credit [HOST#2]
+2025-05-03 08:16:29.9807   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=53.000000->54.000000
+2025-05-03 08:16:29.9831  [WU#104 myapp_522_1746254621.319410] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9842   [RESULT#335 myapp_522_1746254621.319410_2] Valid; granted 0.018794 credit [HOST#2]
+2025-05-03 08:16:29.9842   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=54.000000->55.000000
+2025-05-03 08:16:29.9864   [RESULT#336 myapp_522_1746254621.319410_3] Valid; granted 0.018794 credit [HOST#2]
+2025-05-03 08:16:29.9865   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=54.000000->55.000000
+2025-05-03 08:16:29.9889  [WU#105 myapp_523_1746254621.372159] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9900   [RESULT#337 myapp_523_1746254621.372159_2] Valid; granted 0.016450 credit [HOST#2]
+2025-05-03 08:16:29.9901   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=55.000000->56.000000
+2025-05-03 08:16:29.9925   [RESULT#338 myapp_523_1746254621.372159_3] Valid; granted 0.016450 credit [HOST#2]
+2025-05-03 08:16:29.9925   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=55.000000->56.000000
+2025-05-03 08:16:29.9940  [WU#106 myapp_524_1746254621.424096] handle_wu(): No canonical result yet
+2025-05-03 08:16:29.9951   [RESULT#339 myapp_524_1746254621.424096_2] Valid; granted 0.017629 credit [HOST#2]
+2025-05-03 08:16:29.9951   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=56.000000->57.000000
+2025-05-03 08:16:29.9982   [RESULT#340 myapp_524_1746254621.424096_3] Valid; granted 0.017629 credit [HOST#2]
+2025-05-03 08:16:29.9983   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=56.000000->57.000000
+2025-05-03 08:16:30.0001  [WU#107 myapp_525_1746254621.476517] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0013   [RESULT#438 myapp_525_1746254621.476517_2] Valid; granted 0.019995 credit [HOST#2]
+2025-05-03 08:16:30.0013   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=57.000000->58.000000
+2025-05-03 08:16:30.0035   [RESULT#439 myapp_525_1746254621.476517_3] Valid; granted 0.019995 credit [HOST#2]
+2025-05-03 08:16:30.0035   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=57.000000->58.000000
+2025-05-03 08:16:30.0054  [WU#108 myapp_526_1746254621.528895] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0066   [RESULT#440 myapp_526_1746254621.528895_2] Valid; granted 0.021112 credit [HOST#2]
+2025-05-03 08:16:30.0066   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=58.000000->59.000000
+2025-05-03 08:16:30.0092   [RESULT#441 myapp_526_1746254621.528895_3] Valid; granted 0.021112 credit [HOST#2]
+2025-05-03 08:16:30.0092   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=58.000000->59.000000
+2025-05-03 08:16:30.0110  [WU#109 myapp_527_1746254621.580119] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0121   [RESULT#442 myapp_527_1746254621.580119_2] Valid; granted 0.021157 credit [HOST#2]
+2025-05-03 08:16:30.0121   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=59.000000->60.000000
+2025-05-03 08:16:30.0140   [RESULT#443 myapp_527_1746254621.580119_3] Valid; granted 0.021157 credit [HOST#2]
+2025-05-03 08:16:30.0140   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=59.000000->60.000000
+2025-05-03 08:16:30.0181  [WU#110 myapp_528_1746254621.633633] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0193   [RESULT#219 myapp_528_1746254621.633633_0] Valid; granted 0.014090 credit [HOST#2]
+2025-05-03 08:16:30.0193   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=60.000000->61.000000
+2025-05-03 08:16:30.0216   [RESULT#374 myapp_528_1746254621.633633_2] Valid; granted 0.014090 credit [HOST#2]
+2025-05-03 08:16:30.0216   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=60.000000->61.000000
+2025-05-03 08:16:30.0230  [WU#111 myapp_529_1746254621.685326] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0242   [RESULT#375 myapp_529_1746254621.685326_2] Valid; granted 0.012934 credit [HOST#2]
+2025-05-03 08:16:30.0243   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=61.000000->62.000000
+2025-05-03 08:16:30.0271   [RESULT#376 myapp_529_1746254621.685326_3] Valid; granted 0.012934 credit [HOST#2]
+2025-05-03 08:16:30.0271   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=61.000000->62.000000
+2025-05-03 08:16:30.0287  [WU#112 myapp_530_1746254621.737248] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0299   [RESULT#377 myapp_530_1746254621.737248_2] Valid; granted 0.018774 credit [HOST#2]
+2025-05-03 08:16:30.0299   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=62.000000->63.000000
+2025-05-03 08:16:30.0328   [RESULT#378 myapp_530_1746254621.737248_3] Valid; granted 0.018774 credit [HOST#2]
+2025-05-03 08:16:30.0328   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=62.000000->63.000000
+2025-05-03 08:16:30.0351  [WU#113 myapp_531_1746254621.789451] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0362   [RESULT#225 myapp_531_1746254621.789451_0] Valid; granted 0.015277 credit [HOST#2]
+2025-05-03 08:16:30.0362   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=63.000000->64.000000
+2025-05-03 08:16:30.0381   [RESULT#226 myapp_531_1746254621.789451_1] Valid; granted 0.015277 credit [HOST#2]
+2025-05-03 08:16:30.0381   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=63.000000->64.000000
+2025-05-03 08:16:30.0414  [WU#114 myapp_532_1746254621.841151] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0425   [RESULT#227 myapp_532_1746254621.841151_0] Valid; granted 0.018789 credit [HOST#2]
+2025-05-03 08:16:30.0425   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=64.000000->65.000000
+2025-05-03 08:16:30.0447   [RESULT#228 myapp_532_1746254621.841151_1] Valid; granted 0.018789 credit [HOST#2]
+2025-05-03 08:16:30.0448   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=64.000000->65.000000
+2025-05-03 08:16:30.0466  [WU#115 myapp_533_1746254621.893667] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0484   [RESULT#229 myapp_533_1746254621.893667_0] Valid; granted 0.022313 credit [HOST#2]
+2025-05-03 08:16:30.0484   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=65.000000->66.000000
+2025-05-03 08:16:30.0507   [RESULT#230 myapp_533_1746254621.893667_1] Valid; granted 0.022313 credit [HOST#2]
+2025-05-03 08:16:30.0507   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=65.000000->66.000000
+2025-05-03 08:16:30.0521  [WU#116 myapp_534_1746254621.947311] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0534   [RESULT#231 myapp_534_1746254621.947311_0] Valid; granted 0.014090 credit [HOST#2]
+2025-05-03 08:16:30.0534   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=66.000000->67.000000
+2025-05-03 08:16:30.0575   [RESULT#232 myapp_534_1746254621.947311_1] Valid; granted 0.014090 credit [HOST#2]
+2025-05-03 08:16:30.0575   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=66.000000->67.000000
+2025-05-03 08:16:30.0590  [WU#117 myapp_535_1746254621.999078] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0601   [RESULT#233 myapp_535_1746254621.999078_0] Valid; granted 0.018782 credit [HOST#2]
+2025-05-03 08:16:30.0601   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=67.000000->68.000000
+2025-05-03 08:16:30.0631   [RESULT#234 myapp_535_1746254621.999078_1] Valid; granted 0.018782 credit [HOST#2]
+2025-05-03 08:16:30.0631   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=67.000000->68.000000
+2025-05-03 08:16:30.0650  [WU#118 myapp_536_1746254622.051735] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0661   [RESULT#235 myapp_536_1746254622.051735_0] Valid; granted 0.016419 credit [HOST#2]
+2025-05-03 08:16:30.0661   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=68.000000->69.000000
+2025-05-03 08:16:30.0694   [RESULT#236 myapp_536_1746254622.051735_1] Valid; granted 0.016419 credit [HOST#2]
+2025-05-03 08:16:30.0694   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=68.000000->69.000000
+2025-05-03 08:16:30.0710  [WU#119 myapp_537_1746254622.104247] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0721   [RESULT#237 myapp_537_1746254622.104247_0] Valid; granted 0.017606 credit [HOST#2]
+2025-05-03 08:16:30.0721   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=69.000000->70.000000
+2025-05-03 08:16:30.0749   [RESULT#238 myapp_537_1746254622.104247_1] Valid; granted 0.017606 credit [HOST#2]
+2025-05-03 08:16:30.0749   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=69.000000->70.000000
+2025-05-03 08:16:30.0766  [WU#120 myapp_538_1746254622.156640] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0778   [RESULT#239 myapp_538_1746254622.156640_0] Valid; granted 0.022298 credit [HOST#2]
+2025-05-03 08:16:30.0778   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=70.000000->71.000000
+2025-05-03 08:16:30.0799   [RESULT#240 myapp_538_1746254622.156640_1] Valid; granted 0.022298 credit [HOST#2]
+2025-05-03 08:16:30.0799   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=70.000000->71.000000
+2025-05-03 08:16:30.0820  [WU#121 myapp_539_1746254622.208030] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0837   [RESULT#241 myapp_539_1746254622.208030_0] Valid; granted 0.019917 credit [HOST#2]
+2025-05-03 08:16:30.0838   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=71.000000->72.000000
+2025-05-03 08:16:30.0865   [RESULT#242 myapp_539_1746254622.208030_1] Valid; granted 0.019917 credit [HOST#2]
+2025-05-03 08:16:30.0865   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=71.000000->72.000000
+2025-05-03 08:16:30.0881  [WU#122 myapp_540_1746254622.261949] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0893   [RESULT#243 myapp_540_1746254622.261949_0] Valid; granted 0.015248 credit [HOST#2]
+2025-05-03 08:16:30.0893   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=72.000000->73.000000
+2025-05-03 08:16:30.0924   [RESULT#379 myapp_540_1746254622.261949_2] Valid; granted 0.015248 credit [HOST#2]
+2025-05-03 08:16:30.0924   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=72.000000->73.000000
+2025-05-03 08:16:30.0941  [WU#123 myapp_541_1746254622.313964] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.0966   [RESULT#245 myapp_541_1746254622.313964_0] Valid; granted 0.016448 credit [HOST#2]
+2025-05-03 08:16:30.0966   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=73.000000->74.000000
+2025-05-03 08:16:30.0985   [RESULT#246 myapp_541_1746254622.313964_1] Valid; granted 0.016448 credit [HOST#2]
+2025-05-03 08:16:30.0985   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=73.000000->74.000000
+2025-05-03 08:16:30.1000  [WU#124 myapp_542_1746254622.366481] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1012   [RESULT#247 myapp_542_1746254622.366481_0] Valid; granted 0.007088 credit [HOST#2]
+2025-05-03 08:16:30.1012   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=74.000000->75.000000
+2025-05-03 08:16:30.1044   [RESULT#248 myapp_542_1746254622.366481_1] Valid; granted 0.007088 credit [HOST#2]
+2025-05-03 08:16:30.1044   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=74.000000->75.000000
+2025-05-03 08:16:30.1062  [WU#125 myapp_543_1746254622.418578] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1073   [RESULT#249 myapp_543_1746254622.418578_0] Valid; granted 0.018788 credit [HOST#2]
+2025-05-03 08:16:30.1073   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=75.000000->76.000000
+2025-05-03 08:16:30.1096   [RESULT#250 myapp_543_1746254622.418578_1] Valid; granted 0.018788 credit [HOST#2]
+2025-05-03 08:16:30.1096   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=75.000000->76.000000
+2025-05-03 08:16:30.1130  [WU#126 myapp_544_1746254622.470003] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1141   [RESULT#251 myapp_544_1746254622.470003_0] Valid; granted 0.015279 credit [HOST#2]
+2025-05-03 08:16:30.1141   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=76.000000->77.000000
+2025-05-03 08:16:30.1160   [RESULT#252 myapp_544_1746254622.470003_1] Valid; granted 0.015279 credit [HOST#2]
+2025-05-03 08:16:30.1160   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=76.000000->77.000000
+2025-05-03 08:16:30.1190  [WU#127 myapp_545_1746254622.521834] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1202   [RESULT#253 myapp_545_1746254622.521834_0] Valid; granted 0.009437 credit [HOST#2]
+2025-05-03 08:16:30.1202   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=77.000000->78.000000
+2025-05-03 08:16:30.1227   [RESULT#254 myapp_545_1746254622.521834_1] Valid; granted 0.009437 credit [HOST#2]
+2025-05-03 08:16:30.1227   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=77.000000->78.000000
+2025-05-03 08:16:30.1241  [WU#128 myapp_546_1746254622.575342] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1252   [RESULT#255 myapp_546_1746254622.575342_0] Valid; granted 0.016489 credit [HOST#2]
+2025-05-03 08:16:30.1252   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=78.000000->79.000000
+2025-05-03 08:16:30.1271   [RESULT#256 myapp_546_1746254622.575342_1] Valid; granted 0.016489 credit [HOST#2]
+2025-05-03 08:16:30.1271   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=78.000000->79.000000
+2025-05-03 08:16:30.1296  [WU#129 myapp_547_1746254622.629013] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1307   [RESULT#257 myapp_547_1746254622.629013_0] Valid; granted 0.018807 credit [HOST#2]
+2025-05-03 08:16:30.1307   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=79.000000->80.000000
+2025-05-03 08:16:30.1327   [RESULT#258 myapp_547_1746254622.629013_1] Valid; granted 0.018807 credit [HOST#2]
+2025-05-03 08:16:30.1327   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=79.000000->80.000000
+2025-05-03 08:16:30.1344  [WU#130 myapp_548_1746254622.681258] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1355   [RESULT#259 myapp_548_1746254622.681258_0] Valid; granted 0.021156 credit [HOST#2]
+2025-05-03 08:16:30.1355   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=80.000000->81.000000
+2025-05-03 08:16:30.1381   [RESULT#260 myapp_548_1746254622.681258_1] Valid; granted 0.021156 credit [HOST#2]
+2025-05-03 08:16:30.1381   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=80.000000->81.000000
+2025-05-03 08:16:30.1399  [WU#131 myapp_549_1746254622.732895] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1410   [RESULT#261 myapp_549_1746254622.732895_0] Valid; granted 0.016471 credit [HOST#2]
+2025-05-03 08:16:30.1410   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=81.000000->82.000000
+2025-05-03 08:16:30.1430   [RESULT#262 myapp_549_1746254622.732895_1] Valid; granted 0.016471 credit [HOST#2]
+2025-05-03 08:16:30.1430   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=81.000000->82.000000
+2025-05-03 08:16:30.1466  [WU#132 myapp_936_1746257112.747992] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1478   [RESULT#403 myapp_936_1746257112.747992_0] Valid; granted 0.016454 credit [HOST#2]
+2025-05-03 08:16:30.1478   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=82.000000->83.000000
+2025-05-03 08:16:30.1498   [RESULT#404 myapp_936_1746257112.747992_1] Valid; granted 0.016454 credit [HOST#2]
+2025-05-03 08:16:30.1498   [HOST#2 AV#8] [outlier=0] Updating HAV in DB.  pfc.n=82.000000->83.000000
+2025-05-03 08:16:30.1528  [WU#133 myapp_1287_1746258204.299646] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1541   [RESULT#447 myapp_1287_1746258204.299646_2] Valid; granted 0.008166 credit [HOST#2]
+2025-05-03 08:16:30.1541   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2025-05-03 08:16:30.1572   [RESULT#448 myapp_1287_1746258204.299646_3] Valid; granted 0.008166 credit [HOST#2]
+2025-05-03 08:16:30.1573   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=0.000000->1.000000
+2025-05-03 08:16:30.1590  [WU#134 myapp_1314_1746258569.102501] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1600   [RESULT#446 myapp_1314_1746258569.102501_0] Valid; granted 0.007028 credit [HOST#2]
+2025-05-03 08:16:30.1600   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=1.000000->2.000000
+2025-05-03 08:16:30.1616  [WU#135 myapp_1399_1746259172.672461] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1634   [RESULT#452 myapp_1399_1746259172.672461_1] Valid; granted 0.007009 credit [HOST#2]
+2025-05-03 08:16:30.1634   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=2.000000->3.000000
+2025-05-03 08:16:30.1652  [WU#136 myapp_1400_1746259176.586106] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1662   [RESULT#453 myapp_1400_1746259176.586106_1] Valid; granted 0.009340 credit [HOST#2]
+2025-05-03 08:16:30.1662   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=3.000000->4.000000
+2025-05-03 08:16:30.1691  [WU#137 myapp_1420_1746259307.081653] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1701   [RESULT#451 myapp_1420_1746259307.081653_0] Valid; granted 0.007036 credit [HOST#2]
+2025-05-03 08:16:30.1702   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=4.000000->5.000000
+2025-05-03 08:16:30.1718  [WU#138 myapp_1459_1746259613.684681] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1728   [RESULT#454 myapp_1459_1746259613.684681_0] Valid; granted 0.007046 credit [HOST#2]
+2025-05-03 08:16:30.1728   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=5.000000->6.000000
+2025-05-03 08:16:30.1764  [WU#139 myapp_1476_1746259751.919221] handle_wu(): No canonical result yet
+2025-05-03 08:16:30.1771   [RESULT#455 myapp_1476_1746259751.919221_0] Valid; granted 0.007009 credit [HOST#2]
+2025-05-03 08:16:30.1771   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=6.000000->7.000000
+2025-05-03 08:18:50.7064  [WU#143 myapp_118_1746260289.183970] handle_wu(): No canonical result yet
+2025-05-03 08:18:50.7144   [RESULT#460 myapp_118_1746260289.183970_0] Valid; granted 0.004685 credit [HOST#2]
+2025-05-03 08:18:50.7145   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=7.000000->8.000000
+2025-05-03 08:18:50.7220  [WU#144 myapp_119_1746260289.881399] handle_wu(): No canonical result yet
+2025-05-03 08:18:50.7233   [RESULT#461 myapp_119_1746260289.881399_0] Valid; granted 0.011707 credit [HOST#2]
+2025-05-03 08:18:50.7233   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=8.000000->9.000000
+2025-05-03 08:18:50.7269  [WU#145 myapp_120_1746260291.596974] handle_wu(): No canonical result yet
+2025-05-03 08:18:50.7281   [RESULT#462 myapp_120_1746260291.596974_0] Valid; granted 0.007023 credit [HOST#2]
+2025-05-03 08:18:50.7281   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=9.000000->10.000000
+2025-05-03 08:18:50.7322  [WU#146 myapp_121_1746260292.320898] handle_wu(): No canonical result yet
+2025-05-03 08:18:50.7339   [RESULT#463 myapp_121_1746260292.320898_0] Valid; granted 0.014054 credit [HOST#2]
+2025-05-03 08:18:50.7339   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=10.000000->11.000000
+2025-05-03 08:18:50.7369  [WU#147 myapp_122_1746260292.983065] handle_wu(): No canonical result yet
+2025-05-03 08:18:50.7385   [RESULT#464 myapp_122_1746260292.983065_0] Valid; granted 0.009366 credit [HOST#2]
+2025-05-03 08:18:50.7385   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=11.000000->12.000000
+2025-05-03 08:18:55.7657  [WU#140 myapp_1494_1746259806.104101] handle_wu(): No canonical result yet
+2025-05-03 08:18:55.7710   [RESULT#465 myapp_1494_1746259806.104101_2] Valid; granted 0.009342 credit [HOST#2]
+2025-05-03 08:18:55.7711   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=12.000000->13.000000
+2025-05-03 08:18:55.7769  [WU#141 myapp_65_1746260042.662160] handle_wu(): No canonical result yet
+2025-05-03 08:18:55.7793   [RESULT#466 myapp_65_1746260042.662160_1] Valid; granted 0.011690 credit [HOST#2]
+2025-05-03 08:18:55.7794   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=13.000000->14.000000
+2025-05-03 08:18:55.7842  [WU#142 myapp_95_1746260173.477656] handle_wu(): No canonical result yet
+2025-05-03 08:18:55.7855   [RESULT#467 myapp_95_1746260173.477656_1] Valid; granted 0.007006 credit [HOST#2]
+2025-05-03 08:18:55.7855   [HOST#2 AV#9] [outlier=0] Updating HAV in DB.  pfc.n=14.000000->15.000000
+GOT STOP SIGNAL
+2025-05-03 08:23:06.3417  Quitting due to SIGHUP
+[2025/05/03 08:23:06] Executing command: sample_trivial_validator -app myapp
+2025-05-03 08:23:07.4048  max_granted_credit: 73000000.000000
+2025-05-03 08:23:07.4078  Starting validator, debug level 3
+GOT STOP SIGNAL
+2025-05-03 08:38:30.3296  Quitting due to SIGHUP
+[2025/05/03 08:38:30] Executing command: sample_trivial_validator -app myapp
+2025-05-03 08:38:31.3996  max_granted_credit: 73000000.000000
+2025-05-03 08:38:31.4025  Starting validator, debug level 3
+GOT STOP SIGNAL
+2025-05-03 08:39:24.6078  Quitting due to SIGHUP
+[2025/05/03 08:39:25] Executing command: sample_trivial_validator -app myapp
+2025-05-03 08:39:25.6679  max_granted_credit: 73000000.000000
+2025-05-03 08:39:25.6709  Starting validator, debug level 3
+GOT STOP SIGNAL
+2025-05-03 08:39:42.9082  Quitting due to SIGHUP
+[2025/05/03 08:39:43] Executing command: sample_trivial_validator -app myapp
+2025-05-03 08:39:43.9848  max_granted_credit: 73000000.000000
+2025-05-03 08:39:43.9880  Starting validator, debug level 3

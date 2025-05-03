@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<output_template>
+
+	<file_info>
+		<name>results.tgz</name>
+		<generated_locally/>
+		<max_nbytes>100000000000</max_nbytes> <!-- 100GB -->
+		<upload_when_present/>
+		<url><UPLOAD_URL/></url>
+	</file_info>
+	<result>
+		<file_ref>
+			<file_name>results.tgz</file_name>
+			<open_name>results.tgz</open_name>
+			<copy_file/>
+		</file_ref>
+	</result>
+
+</output_template>
+
+

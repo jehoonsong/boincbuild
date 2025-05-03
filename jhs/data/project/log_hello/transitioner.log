@@ -1,0 +1,509 @@
+[2025/05/03 06:18:00] Executing command: transitioner -d 3
+2025-05-03 06:18:00.9984  Starting
+2025-05-03 06:27:03.1455  [WU#1 myapp_208_1746253619.392439] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1529  [WU#2 myapp_209_1746253620.862465] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1546  [WU#3 myapp_210_1746253621.719849] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1557  [WU#4 myapp_211_1746253621.918462] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1567  [WU#5 myapp_212_1746253622.111859] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1579  [WU#6 myapp_213_1746253622.369639] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1594  [WU#7 myapp_214_1746253622.413602] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1621  [WU#8 myapp_215_1746253622.462687] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1651  [WU#9 myapp_216_1746253622.516581] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1661  [WU#10 myapp_217_1746253622.568108] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1677  [WU#11 myapp_218_1746253622.620492] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1686  [WU#12 myapp_219_1746253622.672746] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1696  [WU#13 myapp_220_1746253622.725363] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1709  [WU#14 myapp_221_1746253622.777375] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1719  [WU#15 myapp_222_1746253622.828803] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1737  [WU#16 myapp_223_1746253622.878822] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:03.1748  [WU#17 myapp_224_1746253622.932934] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.1900  [WU#18 myapp_225_1746253622.984844] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.1976  [WU#19 myapp_226_1746253623.036860] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2009  [WU#20 myapp_227_1746253623.088601] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2037  [WU#21 myapp_228_1746253623.138660] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2062  [WU#22 myapp_229_1746253623.191560] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2085  [WU#23 myapp_230_1746253623.243996] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2120  [WU#24 myapp_231_1746253623.296515] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2147  [WU#25 myapp_232_1746253623.348187] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2168  [WU#26 myapp_233_1746253623.400812] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2185  [WU#27 myapp_234_1746253623.452328] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2211  [WU#28 myapp_235_1746253623.504462] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2225  [WU#29 myapp_236_1746253623.559163] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2246  [WU#30 myapp_237_1746253623.610896] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2277  [WU#31 myapp_238_1746253623.663584] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2290  [WU#32 myapp_239_1746253623.714877] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2305  [WU#33 myapp_240_1746253623.767754] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2318  [WU#34 myapp_241_1746253623.819428] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2346  [WU#35 myapp_242_1746253623.872826] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2368  [WU#36 myapp_243_1746253623.925962] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2386  [WU#37 myapp_244_1746253623.976981] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2400  [WU#38 myapp_245_1746253624.029180] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2432  [WU#39 myapp_246_1746253624.081368] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2445  [WU#40 myapp_247_1746253624.134210] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2459  [WU#41 myapp_248_1746253624.186207] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2479  [WU#42 myapp_249_1746253624.237956] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2507  [WU#43 myapp_250_1746253624.289832] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2526  [WU#44 myapp_251_1746253624.342735] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2537  [WU#45 myapp_252_1746253624.394999] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2547  [WU#46 myapp_253_1746253624.446843] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2559  [WU#47 myapp_254_1746253624.499461] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2585  [WU#48 myapp_255_1746253624.549878] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2592  [WU#49 myapp_256_1746253624.602075] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2609  [WU#50 myapp_257_1746253624.656496] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2625  [WU#51 myapp_258_1746253624.708420] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:27:08.2637  [WU#52 myapp_259_1746253624.761163] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6012  [WU#53 myapp_471_1746254617.644167] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6032  [WU#54 myapp_472_1746254618.503518] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6060  [WU#55 myapp_473_1746254618.756580] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6083  [WU#56 myapp_474_1746254618.803002] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6097  [WU#57 myapp_475_1746254618.856522] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6111  [WU#58 myapp_476_1746254618.910382] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6122  [WU#59 myapp_477_1746254618.961633] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6147  [WU#60 myapp_478_1746254619.014288] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6170  [WU#61 myapp_479_1746254619.065601] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6189  [WU#62 myapp_480_1746254619.117280] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6201  [WU#63 myapp_481_1746254619.168789] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6222  [WU#64 myapp_482_1746254619.220532] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6232  [WU#65 myapp_483_1746254619.274405] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6248  [WU#66 myapp_484_1746254619.327064] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6258  [WU#67 myapp_485_1746254619.378727] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6287  [WU#68 myapp_486_1746254619.430948] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6298  [WU#69 myapp_487_1746254619.482326] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6309  [WU#70 myapp_488_1746254619.535069] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6319  [WU#71 myapp_489_1746254619.589265] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6331  [WU#72 myapp_490_1746254619.639987] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6346  [WU#73 myapp_491_1746254619.692757] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6363  [WU#74 myapp_492_1746254619.744377] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6377  [WU#75 myapp_493_1746254619.796988] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6387  [WU#76 myapp_494_1746254619.848231] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6403  [WU#77 myapp_495_1746254619.902310] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6415  [WU#78 myapp_496_1746254619.955134] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6426  [WU#79 myapp_497_1746254620.007344] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6441  [WU#80 myapp_498_1746254620.059181] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6456  [WU#81 myapp_499_1746254620.111930] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6475  [WU#82 myapp_500_1746254620.163984] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6493  [WU#83 myapp_501_1746254620.217730] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6505  [WU#84 myapp_502_1746254620.270227] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6511  [WU#85 myapp_503_1746254620.322084] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6538  [WU#86 myapp_504_1746254620.374610] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6550  [WU#87 myapp_505_1746254620.427623] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6566  [WU#88 myapp_506_1746254620.479406] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6595  [WU#89 myapp_507_1746254620.533761] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6606  [WU#90 myapp_508_1746254620.586186] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6619  [WU#91 myapp_509_1746254620.637586] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6630  [WU#92 myapp_510_1746254620.689699] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6641  [WU#93 myapp_511_1746254620.741204] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6657  [WU#94 myapp_512_1746254620.793544] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6670  [WU#95 myapp_513_1746254620.847565] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6694  [WU#96 myapp_514_1746254620.900338] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6749  [WU#97 myapp_515_1746254620.952025] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6762  [WU#98 myapp_516_1746254621.004442] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6780  [WU#99 myapp_517_1746254621.056638] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6797  [WU#100 myapp_518_1746254621.108475] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6809  [WU#101 myapp_519_1746254621.161330] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6820  [WU#102 myapp_520_1746254621.213358] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6841  [WU#103 myapp_521_1746254621.265379] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6850  [WU#104 myapp_522_1746254621.319410] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6862  [WU#105 myapp_523_1746254621.372159] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6872  [WU#106 myapp_524_1746254621.424096] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6881  [WU#107 myapp_525_1746254621.476517] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6908  [WU#108 myapp_526_1746254621.528895] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6918  [WU#109 myapp_527_1746254621.580119] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6928  [WU#110 myapp_528_1746254621.633633] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6954  [WU#111 myapp_529_1746254621.685326] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6968  [WU#112 myapp_530_1746254621.737248] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.6983  [WU#113 myapp_531_1746254621.789451] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.7027  [WU#114 myapp_532_1746254621.841151] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.7055  [WU#115 myapp_533_1746254621.893667] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:42.7085  [WU#116 myapp_534_1746254621.947311] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7370  [WU#117 myapp_535_1746254621.999078] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7433  [WU#118 myapp_536_1746254622.051735] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7470  [WU#119 myapp_537_1746254622.104247] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7502  [WU#120 myapp_538_1746254622.156640] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7549  [WU#121 myapp_539_1746254622.208030] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7572  [WU#122 myapp_540_1746254622.261949] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7592  [WU#123 myapp_541_1746254622.313964] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7613  [WU#124 myapp_542_1746254622.366481] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7632  [WU#125 myapp_543_1746254622.418578] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7663  [WU#126 myapp_544_1746254622.470003] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7673  [WU#127 myapp_545_1746254622.521834] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7701  [WU#128 myapp_546_1746254622.575342] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7721  [WU#129 myapp_547_1746254622.629013] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7741  [WU#130 myapp_548_1746254622.681258] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:43:47.7757  [WU#131 myapp_549_1746254622.732895] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9780  [WU#7 myapp_214_1746253622.413602] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9845  [WU#8 myapp_215_1746253622.462687] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9876  [WU#9 myapp_216_1746253622.516581] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9905  [WU#10 myapp_217_1746253622.568108] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9932  [WU#11 myapp_218_1746253622.620492] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9956  [WU#12 myapp_219_1746253622.672746] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:27.9991  [WU#13 myapp_220_1746253622.725363] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0016  [WU#14 myapp_221_1746253622.777375] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0046  [WU#15 myapp_222_1746253622.828803] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0067  [WU#16 myapp_223_1746253622.878822] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:44:28.0091  [WU#25 myapp_232_1746253623.348187] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0105  [WU#26 myapp_233_1746253623.400812] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0118  [WU#27 myapp_234_1746253623.452328] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0146  [WU#28 myapp_235_1746253623.504462] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0165  [WU#29 myapp_236_1746253623.559163] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0176  [WU#30 myapp_237_1746253623.610896] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0198  [WU#31 myapp_238_1746253623.663584] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0209  [WU#32 myapp_239_1746253623.714877] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0219  [WU#33 myapp_240_1746253623.767754] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:44:28.0228  [WU#34 myapp_241_1746253623.819428] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:44:28.0254  [WU#51 myapp_258_1746253624.708420] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:45:38.3216  [WU#58 myapp_476_1746254618.910382] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3249  [WU#59 myapp_477_1746254618.961633] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3276  [WU#60 myapp_478_1746254619.014288] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3302  [WU#61 myapp_479_1746254619.065601] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3342  [WU#62 myapp_480_1746254619.117280] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3370  [WU#63 myapp_481_1746254619.168789] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3394  [WU#64 myapp_482_1746254619.220532] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3417  [WU#65 myapp_483_1746254619.274405] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3456  [WU#66 myapp_484_1746254619.327064] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3470  [WU#67 myapp_485_1746254619.378727] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3489  [WU#68 myapp_486_1746254619.430948] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3508  [WU#69 myapp_487_1746254619.482326] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3520  [WU#70 myapp_488_1746254619.535069] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3544  [WU#71 myapp_489_1746254619.589265] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3556  [WU#72 myapp_490_1746254619.639987] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3566  [WU#73 myapp_491_1746254619.692757] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3583  [WU#97 myapp_515_1746254620.952025] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3602  [WU#103 myapp_521_1746254621.265379] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3619  [WU#104 myapp_522_1746254621.319410] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3645  [WU#105 myapp_523_1746254621.372159] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:45:38.3661  [WU#106 myapp_524_1746254621.424096] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2702  [WU#74 myapp_492_1746254619.744377] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2741  [WU#75 myapp_493_1746254619.796988] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2757  [WU#76 myapp_494_1746254619.848231] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2769  [WU#77 myapp_495_1746254619.902310] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2784  [WU#78 myapp_496_1746254619.955134] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2794  [WU#79 myapp_497_1746254620.007344] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2805  [WU#80 myapp_498_1746254620.059181] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2823  [WU#83 myapp_501_1746254620.217730] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2840  [WU#84 myapp_502_1746254620.270227] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2856  [WU#85 myapp_503_1746254620.322084] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2866  [WU#86 myapp_504_1746254620.374610] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2877  [WU#87 myapp_505_1746254620.427623] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2892  [WU#88 myapp_506_1746254620.479406] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2913  [WU#89 myapp_507_1746254620.533761] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2929  [WU#90 myapp_508_1746254620.586186] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2942  [WU#91 myapp_509_1746254620.637586] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2957  [WU#92 myapp_510_1746254620.689699] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2984  [WU#110 myapp_528_1746254621.633633] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.2997  [WU#111 myapp_529_1746254621.685326] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.3007  [WU#112 myapp_530_1746254621.737248] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 06:49:19.3018  [WU#122 myapp_540_1746254622.261949] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 06:54:25.4677  [WU#2 myapp_209_1746253620.862465] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4715  [WU#4 myapp_211_1746253621.918462] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4735  [WU#5 myapp_212_1746253622.111859] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4747  [WU#20 myapp_227_1746253623.088601] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4758  [WU#22 myapp_229_1746253623.191560] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4784  [WU#36 myapp_243_1746253623.925962] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4849  [WU#37 myapp_244_1746253623.976981] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4873  [WU#42 myapp_249_1746253624.237956] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4892  [WU#44 myapp_251_1746253624.342735] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4911  [WU#46 myapp_253_1746253624.446843] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 06:54:25.4939  [WU#52 myapp_259_1746253624.761163] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7769  [WU#1 myapp_208_1746253619.392439] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7829  [WU#18 myapp_225_1746253622.984844] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7844  [WU#21 myapp_228_1746253623.138660] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7867  [WU#39 myapp_246_1746253624.081368] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:15:15.7888  [WU#41 myapp_248_1746253624.186207] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7904  [WU#43 myapp_250_1746253624.289832] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:15:15.7942  [WU#45 myapp_252_1746253624.394999] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7970  [WU#47 myapp_254_1746253624.499461] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:15:15.7996  [WU#51 myapp_258_1746253624.708420] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:15:15.8029  [WU#52 myapp_259_1746253624.761163] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:13.3576  [WU#132 myapp_936_1746257112.747992] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4733  [WU#7 myapp_214_1746253622.413602] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4767  [WU#8 myapp_215_1746253622.462687] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4807  [WU#9 myapp_216_1746253622.516581] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4828  [WU#10 myapp_217_1746253622.568108] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4862  [WU#11 myapp_218_1746253622.620492] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4889  [WU#12 myapp_219_1746253622.672746] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4908  [WU#13 myapp_220_1746253622.725363] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4922  [WU#14 myapp_221_1746253622.777375] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4951  [WU#93 myapp_511_1746254620.741204] Generating 1 more results (2 target - 0 unsent - 1 in progress - 0 success)
+2025-05-03 07:25:38.4965  [WU#94 myapp_512_1746254620.793544] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4977  [WU#95 myapp_513_1746254620.847565] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.4989  [WU#96 myapp_514_1746254620.900338] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5001  [WU#97 myapp_515_1746254620.952025] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5027  [WU#98 myapp_516_1746254621.004442] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5044  [WU#99 myapp_517_1746254621.056638] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5057  [WU#100 myapp_518_1746254621.108475] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5067  [WU#101 myapp_519_1746254621.161330] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5078  [WU#102 myapp_520_1746254621.213358] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5104  [WU#103 myapp_521_1746254621.265379] Generating 1 more results (2 target - 1 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5111  [WU#107 myapp_525_1746254621.476517] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5126  [WU#108 myapp_526_1746254621.528895] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:25:38.5137  [WU#109 myapp_527_1746254621.580119] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:26:08.6178  [WU#111 myapp_529_1746254621.685326] need_validate:=>true
+2025-05-03 07:26:33.7178  [WU#71 myapp_489_1746254619.589265] need_validate:=>true
+2025-05-03 07:26:33.7191  [WU#72 myapp_490_1746254619.639987] need_validate:=>true
+2025-05-03 07:26:33.7238  [WU#91 myapp_509_1746254620.637586] need_validate:=>true
+2025-05-03 07:26:33.7250  [WU#92 myapp_510_1746254620.689699] need_validate:=>true
+2025-05-03 07:26:33.7310  [WU#112 myapp_530_1746254621.737248] need_validate:=>true
+2025-05-03 07:26:48.8011  [WU#69 myapp_487_1746254619.482326] need_validate:=>true
+2025-05-03 07:26:48.8025  [WU#70 myapp_488_1746254619.535069] need_validate:=>true
+2025-05-03 07:26:48.8038  [WU#73 myapp_491_1746254619.692757] need_validate:=>true
+2025-05-03 07:26:48.8051  [WU#74 myapp_492_1746254619.744377] need_validate:=>true
+2025-05-03 07:26:48.8097  [WU#104 myapp_522_1746254621.319410] need_validate:=>true
+2025-05-03 07:26:48.8109  [WU#105 myapp_523_1746254621.372159] need_validate:=>true
+2025-05-03 07:26:48.8122  [WU#106 myapp_524_1746254621.424096] need_validate:=>true
+2025-05-03 07:26:48.8134  [WU#131 myapp_549_1746254622.732895] need_validate:=>true
+2025-05-03 07:27:08.8755  [WU#15 myapp_222_1746253622.828803] need_validate:=>true
+2025-05-03 07:27:08.8774  [WU#25 myapp_232_1746253623.348187] need_validate:=>true
+2025-05-03 07:27:08.8789  [WU#26 myapp_233_1746253623.400812] need_validate:=>true
+2025-05-03 07:27:08.8847  [WU#90 myapp_508_1746254620.586186] need_validate:=>true
+2025-05-03 07:27:08.8859  [WU#118 myapp_536_1746254622.051735] need_validate:=>true
+2025-05-03 07:27:08.8900  [WU#121 myapp_539_1746254622.208030] need_validate:=>true
+2025-05-03 07:27:08.8910  [WU#122 myapp_540_1746254622.261949] need_validate:=>true
+2025-05-03 07:27:08.8915  [WU#128 myapp_546_1746254622.575342] need_validate:=>true
+2025-05-03 07:27:08.8924  [WU#129 myapp_547_1746254622.629013] need_validate:=>true
+2025-05-03 07:27:08.8933  [WU#130 myapp_548_1746254622.681258] need_validate:=>true
+2025-05-03 07:27:28.9328  [WU#27 myapp_234_1746253623.452328] need_validate:=>true
+2025-05-03 07:27:28.9356  [WU#28 myapp_235_1746253623.504462] need_validate:=>true
+2025-05-03 07:27:28.9370  [WU#32 myapp_239_1746253623.714877] need_validate:=>true
+2025-05-03 07:27:28.9383  [WU#54 myapp_472_1746254618.503518] need_validate:=>true
+2025-05-03 07:27:28.9395  [WU#88 myapp_506_1746254620.479406] need_validate:=>true
+2025-05-03 07:27:28.9408  [WU#89 myapp_507_1746254620.533761] need_validate:=>true
+2025-05-03 07:27:28.9420  [WU#119 myapp_537_1746254622.104247] need_validate:=>true
+2025-05-03 07:27:28.9431  [WU#120 myapp_538_1746254622.156640] need_validate:=>true
+2025-05-03 07:27:28.9441  [WU#124 myapp_542_1746254622.366481] need_validate:=>true
+2025-05-03 07:27:28.9468  [WU#127 myapp_545_1746254622.521834] need_validate:=>true
+2025-05-03 07:27:49.0457  [WU#53 myapp_471_1746254617.644167] need_validate:=>true
+2025-05-03 07:27:49.0471  [WU#55 myapp_473_1746254618.756580] need_validate:=>true
+2025-05-03 07:27:49.0561  [WU#114 myapp_532_1746254621.841151] need_validate:=>true
+2025-05-03 07:27:49.0571  [WU#123 myapp_541_1746254622.313964] need_validate:=>true
+2025-05-03 07:27:49.0590  [WU#125 myapp_543_1746254622.418578] need_validate:=>true
+2025-05-03 07:27:49.0600  [WU#126 myapp_544_1746254622.470003] need_validate:=>true
+2025-05-03 07:28:04.1311  [WU#56 myapp_474_1746254618.803002] need_validate:=>true
+2025-05-03 07:28:04.1326  [WU#57 myapp_475_1746254618.856522] need_validate:=>true
+2025-05-03 07:28:04.1339  [WU#81 myapp_499_1746254620.111930] need_validate:=>true
+2025-05-03 07:28:04.1353  [WU#82 myapp_500_1746254620.163984] need_validate:=>true
+2025-05-03 07:28:04.1406  [WU#110 myapp_528_1746254621.633633] need_validate:=>true
+2025-05-03 07:28:04.1417  [WU#113 myapp_531_1746254621.789451] need_validate:=>true
+2025-05-03 07:28:04.1428  [WU#115 myapp_533_1746254621.893667] need_validate:=>true
+2025-05-03 07:28:29.2334  [WU#14 myapp_221_1746253622.777375] need_validate:=>true
+2025-05-03 07:28:29.2348  [WU#29 myapp_236_1746253623.559163] need_validate:=>true
+2025-05-03 07:28:29.2361  [WU#30 myapp_237_1746253623.610896] need_validate:=>true
+2025-05-03 07:28:29.2373  [WU#31 myapp_238_1746253623.663584] need_validate:=>true
+2025-05-03 07:28:29.2385  [WU#33 myapp_240_1746253623.767754] need_validate:=>true
+2025-05-03 07:28:29.2458  [WU#58 myapp_476_1746254618.910382] need_validate:=>true
+2025-05-03 07:28:29.2519  [WU#99 myapp_517_1746254621.056638] need_validate:=>true
+2025-05-03 07:28:29.2528  [WU#100 myapp_518_1746254621.108475] need_validate:=>true
+2025-05-03 07:28:29.2538  [WU#116 myapp_534_1746254621.947311] need_validate:=>true
+2025-05-03 07:28:49.3365  [WU#7 myapp_214_1746253622.413602] need_validate:=>true
+2025-05-03 07:28:49.3376  [WU#8 myapp_215_1746253622.462687] need_validate:=>true
+2025-05-03 07:28:49.3388  [WU#10 myapp_217_1746253622.568108] need_validate:=>true
+2025-05-03 07:28:49.3403  [WU#11 myapp_218_1746253622.620492] need_validate:=>true
+2025-05-03 07:28:49.3441  [WU#39 myapp_246_1746253624.081368] need_validate:=>true
+2025-05-03 07:28:49.3453  [WU#43 myapp_250_1746253624.289832] need_validate:=>true
+2025-05-03 07:28:49.3496  [WU#85 myapp_503_1746254620.322084] need_validate:=>true
+2025-05-03 07:28:49.3508  [WU#87 myapp_505_1746254620.427623] need_validate:=>true
+2025-05-03 07:28:49.3520  [WU#94 myapp_512_1746254620.793544] need_validate:=>true
+2025-05-03 07:28:49.3539  [WU#117 myapp_535_1746254621.999078] need_validate:=>true
+2025-05-03 07:29:04.4011  [WU#9 myapp_216_1746253622.516581] need_validate:=>true
+2025-05-03 07:29:04.4040  [WU#12 myapp_219_1746253622.672746] need_validate:=>true
+2025-05-03 07:29:04.4054  [WU#52 myapp_259_1746253624.761163] need_validate:=>true
+2025-05-03 07:29:04.4078  [WU#86 myapp_504_1746254620.374610] need_validate:=>true
+2025-05-03 07:29:04.4090  [WU#98 myapp_516_1746254621.004442] need_validate:=>true
+2025-05-03 07:29:04.4118  [WU#101 myapp_519_1746254621.161330] need_validate:=>true
+2025-05-03 07:29:04.4166  [WU#109 myapp_527_1746254621.580119] need_validate:=>true
+2025-05-03 07:29:04.4177  [WU#132 myapp_936_1746257112.747992] need_validate:=>true
+2025-05-03 07:29:19.4721  [WU#13 myapp_220_1746253622.725363] need_validate:=>true
+2025-05-03 07:29:19.4755  [WU#51 myapp_258_1746253624.708420] need_validate:=>true
+2025-05-03 07:29:19.4777  [WU#95 myapp_513_1746254620.847565] need_validate:=>true
+2025-05-03 07:29:19.4794  [WU#96 myapp_514_1746254620.900338] need_validate:=>true
+2025-05-03 07:29:19.4808  [WU#97 myapp_515_1746254620.952025] need_validate:=>true
+2025-05-03 07:29:19.4822  [WU#102 myapp_520_1746254621.213358] need_validate:=>true
+2025-05-03 07:29:19.4836  [WU#103 myapp_521_1746254621.265379] need_validate:=>true
+2025-05-03 07:29:19.4849  [WU#107 myapp_525_1746254621.476517] need_validate:=>true
+2025-05-03 07:29:19.4862  [WU#108 myapp_526_1746254621.528895] need_validate:=>true
+2025-05-03 07:43:28.0257  [WU#133 myapp_1287_1746258204.299646] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:49:34.4470  [WU#134 myapp_1314_1746258569.102501] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:51:34.8918  [WU#133 myapp_1287_1746258204.299646] Generating 2 more results (2 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:51:59.9725  [WU#133 myapp_1287_1746258204.299646] need_validate:=>true
+2025-05-03 07:51:59.9771  [WU#134 myapp_1314_1746258569.102501] need_validate:=>true
+2025-05-03 07:59:36.9684  [WU#135 myapp_1399_1746259172.672461] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 07:59:41.9997  [WU#136 myapp_1400_1746259176.586106] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:01:52.6199  [WU#137 myapp_1420_1746259307.081653] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:04:33.2739  [WU#135 myapp_1399_1746259172.672461] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:04:33.2808  [WU#136 myapp_1400_1746259176.586106] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:04:58.3890  [WU#135 myapp_1399_1746259172.672461] need_validate:=>true
+2025-05-03 08:04:58.3932  [WU#136 myapp_1400_1746259176.586106] need_validate:=>true
+2025-05-03 08:04:58.3952  [WU#137 myapp_1420_1746259307.081653] need_validate:=>true
+2025-05-03 08:06:58.9033  [WU#138 myapp_1459_1746259613.684681] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+GOT STOP SIGNAL
+2025-05-03 08:08:56.1495  Quitting due to SIGHUP
+[2025/05/03 08:08:56] Executing command: transitioner -d 3
+2025-05-03 08:08:56.9018  Starting
+2025-05-03 08:09:16.9824  [WU#139 myapp_1476_1746259751.919221] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:10:07.1884  [WU#140 myapp_1494_1746259806.104101] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:12:07.6615  [WU#138 myapp_1459_1746259613.684681] need_validate:=>true
+2025-05-03 08:12:07.6653  [WU#139 myapp_1476_1746259751.919221] need_validate:=>true
+Traceback (most recent call last):
+  File "bin/start", line 794, in <module>
+    apply(command)
+  File "bin/start", line 560, in command_enable_start
+    found_any = run_daemons()
+  File "bin/start", line 472, in run_daemons
+    run_daemon(task)
+  File "bin/start", line 457, in run_daemon
+    write_pid_file(get_daemon_pid_name(task))
+  File "bin/start", line 300, in write_pid_file
+    print >>open(pidfile,'w'), os.getpid()
+IOError: [Errno 13] Permission denied: u'/home/boincadm/project/pid_hello/transitioner.pid'
+[2025/05/03 08:14:39] Executing command: transitioner -d 3
+2025-05-03 08:14:39.6430  Starting
+2025-05-03 08:14:39.6587  [WU#141 myapp_65_1746260042.662160] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:16:15.0412  [WU#142 myapp_95_1746260173.477656] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+GOT STOP SIGNAL
+2025-05-03 08:16:25.6169  Quitting due to SIGHUP
+[2025/05/03 08:16:29] Executing command: transitioner -d 3
+2025-05-03 08:16:29.2898  Starting
+2025-05-03 08:17:04.4145  [WU#140 myapp_1494_1746259806.104101] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:14.7321  [WU#143 myapp_118_1746260289.183970] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:14.7366  [WU#144 myapp_119_1746260289.881399] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:14.7391  [WU#145 myapp_120_1746260291.596974] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:14.7417  [WU#146 myapp_121_1746260292.320898] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:14.7442  [WU#147 myapp_122_1746260292.983065] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:29.8049  [WU#140 myapp_1494_1746259806.104101] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:29.8115  [WU#141 myapp_65_1746260042.662160] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:29.8141  [WU#142 myapp_95_1746260173.477656] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:18:49.9108  [WU#143 myapp_118_1746260289.183970] need_validate:=>true
+2025-05-03 08:18:49.9154  [WU#144 myapp_119_1746260289.881399] need_validate:=>true
+2025-05-03 08:18:49.9173  [WU#145 myapp_120_1746260291.596974] need_validate:=>true
+2025-05-03 08:18:49.9189  [WU#146 myapp_121_1746260292.320898] need_validate:=>true
+2025-05-03 08:18:49.9204  [WU#147 myapp_122_1746260292.983065] need_validate:=>true
+2025-05-03 08:18:54.9501  [WU#140 myapp_1494_1746259806.104101] need_validate:=>true
+2025-05-03 08:18:54.9532  [WU#141 myapp_65_1746260042.662160] need_validate:=>true
+2025-05-03 08:18:54.9541  [WU#142 myapp_95_1746260173.477656] need_validate:=>true
+2025-05-03 08:19:04.9976  [WU#148 myapp_130_1746260340.419149] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:04.9995  [WU#149 myapp_131_1746260343.799679] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:05.0018  [WU#150 myapp_132_1746260344.029660] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:05.0029  [WU#151 myapp_133_1746260344.219485] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:05.0055  [WU#152 myapp_134_1746260344.452727] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:05.0066  [WU#153 myapp_135_1746260344.710530] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:05.0084  [WU#154 myapp_136_1746260344.928227] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0334  [WU#155 myapp_137_1746260345.147927] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0408  [WU#156 myapp_138_1746260345.383508] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0440  [WU#157 myapp_139_1746260345.626666] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0463  [WU#158 myapp_140_1746260345.850711] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0491  [WU#159 myapp_141_1746260346.076086] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0515  [WU#160 myapp_142_1746260346.300193] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0566  [WU#161 myapp_143_1746260346.523293] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0582  [WU#162 myapp_144_1746260346.737676] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0601  [WU#163 myapp_145_1746260346.957860] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:19:10.0631  [WU#164 myapp_146_1746260347.204019] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:45.3954  [WU#165 myapp_166_1746260444.541329] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4251  [WU#166 myapp_167_1746260445.628863] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4321  [WU#167 myapp_168_1746260445.835592] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4343  [WU#168 myapp_169_1746260446.096096] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4363  [WU#169 myapp_170_1746260446.342139] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4375  [WU#170 myapp_171_1746260446.561362] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4393  [WU#171 myapp_172_1746260446.786146] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4435  [WU#172 myapp_173_1746260447.030409] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4457  [WU#173 myapp_174_1746260447.238686] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4476  [WU#174 myapp_175_1746260447.475252] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4510  [WU#175 myapp_176_1746260447.666717] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4528  [WU#176 myapp_177_1746260447.882519] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:20:50.4541  [WU#177 myapp_178_1746260448.311021] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+GOT STOP SIGNAL
+2025-05-03 08:23:06.3417  Quitting due to SIGHUP
+[2025/05/03 08:23:06] Executing command: transitioner -d 3
+2025-05-03 08:23:07.0825  Starting
+2025-05-03 08:27:38.1275  [WU#148 myapp_130_1746260340.419149] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1352  [WU#149 myapp_131_1746260343.799679] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1370  [WU#150 myapp_132_1746260344.029660] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1381  [WU#151 myapp_133_1746260344.219485] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1390  [WU#152 myapp_134_1746260344.452727] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1418  [WU#153 myapp_135_1746260344.710530] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1425  [WU#154 myapp_136_1746260344.928227] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1434  [WU#155 myapp_137_1746260345.147927] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1445  [WU#156 myapp_138_1746260345.383508] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1455  [WU#157 myapp_139_1746260345.626666] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1469  [WU#158 myapp_140_1746260345.850711] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1480  [WU#159 myapp_141_1746260346.076086] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1489  [WU#160 myapp_142_1746260346.300193] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1499  [WU#161 myapp_143_1746260346.523293] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1526  [WU#162 myapp_144_1746260346.737676] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1532  [WU#163 myapp_145_1746260346.957860] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1551  [WU#164 myapp_146_1746260347.204019] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1560  [WU#165 myapp_166_1746260444.541329] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1584  [WU#166 myapp_167_1746260445.628863] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1598  [WU#167 myapp_168_1746260445.835592] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1605  [WU#168 myapp_169_1746260446.096096] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1614  [WU#169 myapp_170_1746260446.342139] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1623  [WU#170 myapp_171_1746260446.561362] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1632  [WU#171 myapp_172_1746260446.786146] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1643  [WU#172 myapp_173_1746260447.030409] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1666  [WU#173 myapp_174_1746260447.238686] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1673  [WU#174 myapp_175_1746260447.475252] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1690  [WU#175 myapp_176_1746260447.666717] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1702  [WU#176 myapp_177_1746260447.882519] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:27:38.1718  [WU#177 myapp_178_1746260448.311021] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:28:18.3520  [WU#178 myapp_370_1746260895.299616] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:28:48.4678  [WU#179 myapp_371_1746260923.440104] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:28:48.4732  [WU#180 myapp_372_1746260924.272926] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:28:48.4769  [WU#181 myapp_373_1746260925.139462] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:28:48.4796  [WU#182 myapp_374_1746260925.735094] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:18.6064  [WU#183 myapp_381_1746260957.782094] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:43.7143  [WU#184 myapp_383_1746260980.920484] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:43.7200  [WU#185 myapp_384_1746260981.334052] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:43.7231  [WU#186 myapp_385_1746260981.620505] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:43.7286  [WU#187 myapp_386_1746260981.862947] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7577  [WU#188 myapp_388_1746260983.051546] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7621  [WU#189 myapp_389_1746260983.287235] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7638  [WU#190 myapp_390_1746260983.973621] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7651  [WU#191 myapp_391_1746260984.248404] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7675  [WU#192 myapp_392_1746260984.526482] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7685  [WU#193 myapp_393_1746260984.816104] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:29:48.7700  [WU#194 myapp_394_1746260985.211122] Generating 1 more results (1 target - 0 unsent - 0 in progress - 0 success)
+2025-05-03 08:30:44.0134  [WU#1 myapp_208_1746253619.392439] Generating 1 more results (2 target - 0 unsent - 0 in progress - 1 success)
+Failed to read result template file '../templates/myapp_out.xml': Error -1
+2025-05-03 08:30:44.0136 [CRITICAL] [WU#1 myapp_208_1746253619.392439] create_result_ti(): Error -1
+2025-05-03 08:30:44.0137 [CRITICAL] [WU#1 myapp_208_1746253619.392439] handle_wu: Error -1; quitting
+Traceback (most recent call last):
+  File "/home/boincadm/project/bin/start", line 794, in <module>
+    apply(command)
+  File "/home/boincadm/project/bin/start", line 572, in command_cron_start
+    run_daemons()
+  File "/home/boincadm/project/bin/start", line 472, in run_daemons
+    run_daemon(task)
+  File "/home/boincadm/project/bin/start", line 457, in run_daemon
+    write_pid_file(get_daemon_pid_name(task))
+  File "/home/boincadm/project/bin/start", line 300, in write_pid_file
+    print >>open(pidfile,'w'), os.getpid()
+IOError: [Errno 13] Permission denied: u'/home/boincadm/project/pid_hello/transitioner.pid'
+[2025/05/03 08:38:30] Executing command: transitioner -d 3
+2025-05-03 08:38:31.0792  Starting
+2025-05-03 08:38:31.0940  [WU#1 myapp_208_1746253619.392439] Generating 1 more results (2 target - 0 unsent - 0 in progress - 1 success)
+Failed to read result template file '../templates/myapp_out.xml': Error -1
+2025-05-03 08:38:31.0943 [CRITICAL] [WU#1 myapp_208_1746253619.392439] create_result_ti(): Error -1
+2025-05-03 08:38:31.0943 [CRITICAL] [WU#1 myapp_208_1746253619.392439] handle_wu: Error -1; quitting
+[2025/05/03 08:39:25] Executing command: transitioner -d 3
+2025-05-03 08:39:25.3513  Starting
+2025-05-03 08:39:25.3654  [WU#1 myapp_208_1746253619.392439] Generating 1 more results (2 target - 0 unsent - 0 in progress - 1 success)
+Failed to read result template file '../templates/myapp_out.xml': Error -1
+2025-05-03 08:39:25.3657 [CRITICAL] [WU#1 myapp_208_1746253619.392439] create_result_ti(): Error -1
+2025-05-03 08:39:25.3658 [CRITICAL] [WU#1 myapp_208_1746253619.392439] handle_wu: Error -1; quitting
+[2025/05/03 08:39:43] Executing command: transitioner -d 3
+2025-05-03 08:39:43.6599  Starting
+2025-05-03 08:39:43.6735  [WU#1 myapp_208_1746253619.392439] Generating 1 more results (2 target - 0 unsent - 0 in progress - 1 success)
+Failed to read result template file '../templates/myapp_out.xml': Error -1
+2025-05-03 08:39:43.6738 [CRITICAL] [WU#1 myapp_208_1746253619.392439] create_result_ti(): Error -1
+2025-05-03 08:39:43.6738 [CRITICAL] [WU#1 myapp_208_1746253619.392439] handle_wu: Error -1; quitting
+Traceback (most recent call last):
+  File "/home/boincadm/project/bin/start", line 794, in <module>
+    apply(command)
+  File "/home/boincadm/project/bin/start", line 572, in command_cron_start
+    run_daemons()
+  File "/home/boincadm/project/bin/start", line 472, in run_daemons
+    run_daemon(task)
+  File "/home/boincadm/project/bin/start", line 457, in run_daemon
+    write_pid_file(get_daemon_pid_name(task))
+  File "/home/boincadm/project/bin/start", line 300, in write_pid_file
+    print >>open(pidfile,'w'), os.getpid()
+IOError: [Errno 13] Permission denied: u'/home/boincadm/project/pid_hello/transitioner.pid'

@@ -1,0 +1,14 @@
+volumes:
+  boinc_data:
+
+services:
+  example:
+    image: boinc/client
+    environment:
+      - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --attach_project http://172.30.1.115/hello 8cbaaf7d145998ec0e3045aa0604722d
+
+    volumes:
+      - boinc_data:/var/lib/boinc
+      - ./cc_config.xml:/etc/boinc-client/cc_config.xml
+    restart: unless-stopped
+

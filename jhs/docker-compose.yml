@@ -1,0 +1,65 @@
+volumes:
+  mysql:
+  project:
+  results:
+  secrets:
+
+services:
+  mysql:
+    build: 
+      context: images/mysql
+    volumes:
+      - "mysql:/var/lib/mysql"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+ 
+  apache:
+    build: 
+      context: images/apache
+      args:
+        - BOINC_USER
+        - PROJECT_ROOT
+    hostname: $PROJECT
+    depends_on:
+      - mysql
+    volumes: 
+      - "${PWD}/data:/data"
+      - "project:$PROJECT_ROOT"
+      - "results:/results"
+      - "secrets:/run/secrets"
+      #- "/dev/null:/run/secrets/keys/code_sign_private"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    ports: 
+      - "80:80"
+    tty: true
+    environment:
+      - URL_BASE
+      - PROJECT
+
+  makeproject:
+    image: boinc/server_makeproject:$VERSION$TAG$DEFAULTARGS
+    build: 
+      context: images/makeproject
+      target: makeproject$DEFAULTARGS
+      args:
+        - TAG
+        - BOINC_USER
+        - PROJECT_ROOT
+    volumes:
+      - "project:$PROJECT_ROOT.dst"
+      - "secrets:/run/secrets"
+    hostname: makeproject
+    environment:
+      - URL_BASE
+      - PROJECT
+    depends_on:
+        - mysql
+        - apache
+
+  # boinncc:
+  #   image: boinc/client
+  #   environment:
+  #     - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc-client --attach_project http://172.30.1.115/hello ba523f14280068c5d539b7d87ff47bef
+  #   volumes:
+  #     - boinc_data:/var/lib/boinc-client
+  #   restart: unless-stopped
+

@@ -1,0 +1,2 @@
+07:51:37 (16): wrapper (7.5.26014): starting
+07:51:37 (16): wrapper: running ../../projects/172.30.1.115_hello/myapp.sh (input.txt)

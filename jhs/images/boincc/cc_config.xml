@@ -1,0 +1,10 @@
+<cc_config>
+  <log_flags>
+    <task>1</task>
+    <file_xfer>1</file_xfer>
+    <sched_ops>1</sched_ops>
+  </log_flags>
+ <options>
+    <run_if_user_active>1</run_if_user_active>
+</options>  
+</cc_config>
