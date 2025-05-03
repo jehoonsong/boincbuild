@@ -1,4 +1,0 @@
-
-<!-- <scheduler>http://127.0.0.1/hello_cgi/cgi</scheduler> -->"
-<link rel="boinc_scheduler" href="url"">
-        

@@ -1,6 +1,0 @@
-[2025/05/01 06:55:02] Executing command: file_deleter -d 3
-2025-05-01 06:55:02.2852  Starting
-WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
-[2025/05/01 06:55:14] Executing command: file_deleter -d 3
-2025-05-01 06:55:14.2622  Starting
-WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.

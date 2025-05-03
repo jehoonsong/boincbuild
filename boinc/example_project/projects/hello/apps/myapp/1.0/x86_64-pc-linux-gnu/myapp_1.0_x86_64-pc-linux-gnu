@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "Hello BOINC World"
-touch .finished
-touch results.tgz
-exit 0
