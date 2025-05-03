@@ -1,17 +1,21 @@
+version: "2"
+
 volumes:
   boinc_data:
 
 services:
   example:
-    image: boinc/client
-    # docker buildx build --platform linux/amd64 -t boinc-client .  
+    build:
+      context: .
+      dockerfile: Dockerfile.arm64v8
+      args:
+        - platform=linux/arm64
+    image: boincc:latest
     environment:
       - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --attach_project http://172.30.1.115/hello ${USER_ACCOUNT_KEY}
-    platform: linux/amd64
     
     volumes:
       - boinc_data:/var/lib/boinc
       - ./cc_config.xml:/etc/boinc-client/cc_config.xml
 
     restart: unless-stopped
-

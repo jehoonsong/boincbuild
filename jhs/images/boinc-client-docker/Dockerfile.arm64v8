@@ -1,7 +1,4 @@
-
-FROM arm64v8/ubuntu:22.04
-# docker pull arm64v8/ubuntu:22.04
-# arm64v8/ubuntu:22.04
+FROM arm64v8/ubuntu:rolling
 
 LABEL maintainer="BOINC" \
       description="A lightweight BOINC client on ARMv8 64-bit architecture."
