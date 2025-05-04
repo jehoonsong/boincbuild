@@ -11,7 +11,6 @@ services:
     volumes:
       - "mysql:/var/lib/mysql"
       - "/var/run/docker.sock:/var/run/docker.sock"
- 
   apache:
     build: 
       context: images/apache
@@ -34,7 +33,6 @@ services:
     environment:
       - URL_BASE
       - PROJECT
-
   makeproject:
     image: boinc/server_makeproject:$VERSION$TAG$DEFAULTARGS
     build: 
