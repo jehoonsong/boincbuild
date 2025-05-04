@@ -1,4 +1,3 @@
-
 cp -vr /data/myapp /home/boincadm/project/apps/
 cp -vr /data/templates/* /home/boincadm/project/templates/
 
