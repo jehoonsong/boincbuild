@@ -1,7 +1,0 @@
-<job_desc>
-	<task>
-		<application>myapp</application>
-		<command_line>input.txt</command_line>
-	</task>
-</job_desc>
-

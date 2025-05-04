@@ -7,11 +7,11 @@
         <long_name>hello</long_name>
         <sched_debug_level>3</sched_debug_level>
         <cache_md5_info>1</cache_md5_info>
-        <upload_url>http://172.30.1.115/hello_cgi/file_upload_handler</upload_url>
+        <upload_url>http://192.168.0.234/hello_cgi/file_upload_handler</upload_url>
         <disable_account_creation>0</disable_account_creation>
         <uldl_dir_fanout>1024</uldl_dir_fanout>
         <disable_web_account_creation>0</disable_web_account_creation>
-        <download_url>http://172.30.1.115/hello/download</download_url>
+        <download_url>http://192.168.0.234/hello/download</download_url>
         <db_user>root</db_user>
         <log_dir>/home/boincadm/project/log_hello</log_dir>
         <account_creation_rpc_require_consent>0</account_creation_rpc_require_consent>
@@ -19,7 +19,7 @@
         <app_dir>/home/boincadm/project/apps</app_dir>
         <download_dir>/home/boincadm/project/download</download_dir>
         <fuh_debug_level>3</fuh_debug_level>
-        <master_url>http://172.30.1.115/hello/</master_url>
+        <master_url>http://192.168.0.234/hello/</master_url>
         <host>hello</host>
         <db_name>hello</db_name>
         <shmem_key>0x11111f7b</shmem_key>
@@ -35,9 +35,6 @@
         <daily_result_quota>500</daily_result_quota>
         <one_result_per_user_per_wu>0</one_result_per_user_per_wu>
         <max_wus_to_send>50</max_wus_to_send>
-        <min_sendwork_interval>1</min_sendwork_interval> <!-- 작업 요청 간 최소 대기시간(초) -->
-        <min_rpc_time_interval>1</min_rpc_time_interval> <!-- RPC 요청 간 최소 대기시간(초) -->
-
     </config>
     <tasks>
         <task>
@@ -117,11 +114,11 @@
         <daemon>
             <cmd>file_deleter -d 3</cmd>
         </daemon>
-	<daemon>
-            <cmd>script_assimilator --app boinc2docker --script "boinc2docker_assimilator files"</cmd>
-	</daemon> 
         <daemon>
-            <cmd>sample_trivial_validator -app myapp</cmd>
+            <cmd>script_assimilator --app boinc2docker --script "boinc2docker_assimilator files"</cmd>
+        </daemon>
+        <daemon>
+            <cmd>sample_trivial_validator -app boinc2docker</cmd>
         </daemon>
     </daemons>
 </boinc>

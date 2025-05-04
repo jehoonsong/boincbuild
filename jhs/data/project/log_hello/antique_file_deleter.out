@@ -1,2 +1,0 @@
-2025-05-03 06:20:02.0557 [CRITICAL] Couldn't find http_user 'apache' in passwd
-2025-05-03 06:20:02.0560 [CRITICAL] delete_antiques() returned with error -1
