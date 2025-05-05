@@ -7,8 +7,8 @@ services:
   ndistc:
     build:
       context: .
-      #dockerfile: Dockerfile.arm64v8
-      dockerfile: Dockerfile.nvidia
+      dockerfile: Dockerfile.arm64v8
+      #dockerfile: Dockerfile.nvidia
         #args:
         #- platform=linux/arm64
     image: ghcr.io/jehoonsong/boincc:latest
@@ -25,10 +25,10 @@ services:
       - ./cc_config.xml:/var/lib/boinc-client/cc_config.xml
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
+    #deploy:
+    #  resources:
+    #    reservations:
+    #      devices:
+    #        - driver: nvidia
+    #          count: all
+    #          capabilities: [gpu]

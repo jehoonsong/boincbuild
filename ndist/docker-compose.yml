@@ -29,11 +29,11 @@ services:
       - "project:$PROJECT_ROOT"
       - "results:/results"
       - "secrets:/run/secrets"
-      - "/volume1/scratch:/scratch"
+      # - "/volume1/scratch:/scratch"
       #- "/dev/null:/run/secrets/keys/code_sign_private"
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports: 
-      - "8089:80"
+      - "80:80"
     tty: true
     environment:
       - URL_BASE
