@@ -21,14 +21,14 @@ services:
     depends_on:
       - mysql
     volumes: 
-      - "${PWD}/data:/data"
+      - "./data:/data"
       - "project:$PROJECT_ROOT"
       - "results:/results"
       - "secrets:/run/secrets"
       #- "/dev/null:/run/secrets/keys/code_sign_private"
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports: 
-      - "80:80"
+      - "8088:80"
     tty: true
     environment:
       - URL_BASE
@@ -37,7 +37,7 @@ services:
     image: boinc/server_makeproject:$VERSION$TAG$DEFAULTARGS
     build: 
       context: images/makeproject
-      target: makeproject$DEFAULTARGS
+      #target: makeproject$DEFAULTARGS
       args:
         - TAG
         - BOINC_USER

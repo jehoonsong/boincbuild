@@ -7,7 +7,7 @@ crontab -l 2>/dev/null | grep -q "bin/start --cron" || \
 chown boincadm:boincadm -Rv /home/boincadm/project/upload
 chown boincadm:boincadm -Rv /home/boincadm/project/download
 chown boincadm:boincadm -Rv /home/boincadm/project/*
-
+cp project.xml /home/boincadm/project 
 cd /home/boincadm/project && bin/xadd 
 cd /home/boincadm/project && bin/update_versions
 
