@@ -17,9 +17,18 @@ services:
       - BOINC_REMOTE_HOST=${BOINC_REMOTE_HOST}
       - BOINC_PROJECT_URL=${BOINC_PROJECT_URL}
       - BOINC_ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
+      - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - ndistc_data:/var/lib/boinc
       - ./cc_config.xml:/etc/boinc-client/cc_config.xml
+      - ./cc_config.xml:/var/lib/boinc/cc_config.xml
+      - ./cc_config.xml:/var/lib/boinc-client/cc_config.xml
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
-
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
