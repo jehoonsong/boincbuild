@@ -11,6 +11,8 @@ services:
     volumes:
       - "mysql:/var/lib/mysql"
       - "/var/run/docker.sock:/var/run/docker.sock"
+    ports:
+      - "3307:3306"
   apache:
     build: 
       context: images/apache
@@ -25,6 +27,7 @@ services:
       - "project:$PROJECT_ROOT"
       - "results:/results"
       - "secrets:/run/secrets"
+      - "/volume1/scratch:/scratch"
       #- "/dev/null:/run/secrets/keys/code_sign_private"
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports: 
@@ -52,6 +55,17 @@ services:
     depends_on:
         - mysql
         - apache
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_ARBITRARY=1
+    restart: unless-stopped
+    depends_on:
+      - mysql
+
 
   # boinncc:
   #   image: boinc/client
