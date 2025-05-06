@@ -29,6 +29,7 @@ services:
       - "project:$PROJECT_ROOT"
       - "results:/results"
       - "secrets:/run/secrets"
+      - "/tmp:/tmp"
       # - "/volume1/scratch:/scratch"
       #- "/dev/null:/run/secrets/keys/code_sign_private"
       - "/var/run/docker.sock:/var/run/docker.sock"
@@ -70,7 +71,6 @@ services:
     depends_on:
       - mysql
       - apache
-
 
   # boinncc:
   #   image: boinc/client

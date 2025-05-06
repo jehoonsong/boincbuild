@@ -1,6 +1,0 @@
-<app_config>
-	<app>
-		<name>myapp</name>
-		<max_concurrent>1</max_concurrent>
-	</app>
-</app_config>

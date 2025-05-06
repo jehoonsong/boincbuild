@@ -4,25 +4,24 @@
         <upload_dir>/home/boincadm/project/upload</upload_dir>
         <disable_account_creation_rpc>0</disable_account_creation_rpc>
         <send_result_abort>1</send_result_abort>
-        <long_name>hello</long_name>
+        <long_name>ndist</long_name>
         <sched_debug_level>3</sched_debug_level>
         <cache_md5_info>1</cache_md5_info>
-        <upload_url>http://172.30.1.115/hello_cgi/file_upload_handler</upload_url>
+        <upload_url>http://172.30.1.102:80/ndist_cgi/file_upload_handler</upload_url>
         <disable_account_creation>0</disable_account_creation>
         <uldl_dir_fanout>1024</uldl_dir_fanout>
         <disable_web_account_creation>0</disable_web_account_creation>
-        <download_url>http://172.30.1.115/hello/download</download_url>
+        <download_url>http://172.30.1.102:80/ndist/download</download_url>
         <db_user>root</db_user>
-        <log_dir>/home/boincadm/project/log_hello</log_dir>
-        <account_creation_rpc_require_consent>0</account_creation_rpc_require_consent>
+        <log_dir>/home/boincadm/project/log_ndist</log_dir>
         <enable_delete_account>0</enable_delete_account>
         <app_dir>/home/boincadm/project/apps</app_dir>
         <download_dir>/home/boincadm/project/download</download_dir>
         <fuh_debug_level>3</fuh_debug_level>
-        <master_url>http://172.30.1.115/hello/</master_url>
-        <host>hello</host>
-        <db_name>hello</db_name>
-        <shmem_key>0x1111a3fa</shmem_key>
+        <master_url>http://172.30.1.102:80/ndist/</master_url>
+        <host>ndist</host>
+        <db_name>ndist</db_name>
+        <shmem_key>0x11113b43</shmem_key>
         <show_results>1</show_results>
         <key_dir>/home/boincadm/project/keys/</key_dir>
         <dont_generate_upload_certificates>1</dont_generate_upload_certificates>
@@ -106,14 +105,13 @@
     </tasks>
     <daemons>
         <daemon>
-            <cmd>feeder -d 3 </cmd>
+            <cmd>feeder -d 3</cmd>
         </daemon>
         <daemon>
-            <cmd>transitioner -d 3 </cmd>
+            <cmd>transitioner -d 3</cmd>
         </daemon>
         <daemon>
-            <cmd>file_deleter -d 3 </cmd>
+            <cmd>file_deleter -d 3</cmd>
         </daemon>
     </daemons>
 </boinc>
-

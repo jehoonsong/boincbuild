@@ -8,7 +8,7 @@ RUN apt-get install -y python-pip && \
     pip install ipdb ipython
 
 RUN apt-get update && apt-get install -y \
-    iputils-ping nano
+    iputils-ping nano rsync make zip unzip
 
 ENV DOCKER_API_VERSION=1.24
 

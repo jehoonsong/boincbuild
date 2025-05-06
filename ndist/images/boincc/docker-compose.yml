@@ -7,8 +7,8 @@ services:
   ndistc:
     build:
       context: .
-      dockerfile: Dockerfile.arm64v8
-      #dockerfile: Dockerfile.nvidia
+        #dockerfile: Dockerfile.arm64v8
+      dockerfile: Dockerfile.nvidia
         #args:
         #- platform=linux/arm64
     image: ghcr.io/jehoonsong/boincc:latest
@@ -20,15 +20,10 @@ services:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - ndistc_data:/var/lib/boinc
-      - ./cc_config.xml:/etc/boinc-client/cc_config.xml
+      - ./shared:/shared
+      - ../../data:/data
+      - /tmp:/tmp
       - ./cc_config.xml:/var/lib/boinc/cc_config.xml
       - ./cc_config.xml:/var/lib/boinc-client/cc_config.xml
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
-    #deploy:
-    #  resources:
-    #    reservations:
-    #      devices:
-    #        - driver: nvidia
-    #          count: all
-    #          capabilities: [gpu]
