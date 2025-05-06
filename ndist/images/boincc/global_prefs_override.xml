@@ -1,0 +1,4 @@
+<global_preferences>
+    <work_buf_min_days>0.01</work_buf_min_days>        <!-- 최소 작업 버퍼 (15분) -->
+    <work_buf_additional_days>0.0</work_buf_additional_days> <!-- 추가 버퍼 없음 -->
+</global_preferences>

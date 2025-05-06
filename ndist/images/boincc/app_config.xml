@@ -2,7 +2,7 @@
 <app_config>
     <app>
         <name>myapp</name>
-        <max_concurrent>1</max_concurrent> <!-- 동시에 실행할 최대 작업 수 hello -->
+        <max_concurrent>1</max_concurrent> 
         <gpu_versions>
             <gpu_usage>1.0</gpu_usage>    
             <cpu_usage>1.0</cpu_usage>     
