@@ -1,0 +1,16 @@
+
+<app_config>
+    <app>
+        <name>myapp</name>
+        <max_concurrent>1</max_concurrent> <!-- 동시에 실행할 최대 작업 수 hello -->
+        <gpu_versions>
+            <gpu_usage>1.0</gpu_usage>    
+            <cpu_usage>1.0</cpu_usage>     
+        </gpu_versions>
+
+        <fraction_done_exact>1</fraction_done_exact> 
+        <report_results_immediately>1</report_results_immediately> 
+    </app>
+    <project_max_concurrent>1</project_max_concurrent>
+    <report_results_immediately>1</report_results_immediately>
+</app_config>
