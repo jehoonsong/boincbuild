@@ -2,6 +2,6 @@
 
 timestamp=$(date +%Y%m%d-%H%M%S)
 
-for i in $(seq 1 1); do
+for i in $(seq 1 50); do
 	  cp input.tgz in-${timestamp}-${i}.tgz
   done

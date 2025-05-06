@@ -29,3 +29,31 @@ cat > $appdir/version.xml <<EOL
   </file>
 </version>
 EOL
+
+cat $appdir/version.xml
+
+cat > $PROJECT_ROOT/app_info.xml<<EOL
+<app_info>
+    <app>
+        <name>myapp</name>
+    </app>
+
+    <file_info>
+        <name>myapp_${version}_x86_64-pc-linux-gnu</name>
+        <executable/>
+    </file_info>
+
+    <app_version>
+        <app_name>myapp</app_name>
+        <version_num>${version}</version_num>
+        <platform>x86_64-pc-linux-gnu</platform>
+        <file_ref>
+            <file_name>myapp_${version}_x86_64-pc-linux-gnu</file_name>
+            <main_program/>
+        </file_ref>
+        <max_concurrent>1</max_concurrent> 
+    </app_version>
+</app_info>
+EOL
+
+cat $PROJECT_ROOT/app_info.xml
