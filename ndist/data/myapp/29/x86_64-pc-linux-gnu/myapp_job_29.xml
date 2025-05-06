@@ -1,8 +1,0 @@
-<job_desc>
-	<task>
-		<application>myapp</application>
-		<stdout_filename>stdout</stdout_filename> 
-		<stderr_filename>stderr</stderr_filename>
-		<command_line></command_line>
-	</task>
-</job_desc>
