@@ -7,10 +7,7 @@ services:
   ndistc:
     build:
       context: .
-        #dockerfile: Dockerfile.arm64v8
       dockerfile: Dockerfile.nvidia
-        #args:
-        #- platform=linux/arm64
     image: ghcr.io/jehoonsong/boincc:latest
     environment:
       - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --allow_remote_gui_rpc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}
@@ -20,8 +17,6 @@ services:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - ndistc_data:/var/lib/boinc
-      - ./shared:/shared
-      - ../../data:/data
       - /tmp:/tmp
       - /var/run/docker.sock:/var/run/docker.sock
       - ./cc_config.xml:/var/lib/boinc/cc_config.xml

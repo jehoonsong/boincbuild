@@ -7,18 +7,18 @@
         <long_name>ndist</long_name>
         <sched_debug_level>3</sched_debug_level>
         <cache_md5_info>1</cache_md5_info>
-        <upload_url>http://172.30.1.102:80/ndist_cgi/file_upload_handler</upload_url>
+        <upload_url>http://172.30.1.32:8089/ndist_cgi/file_upload_handler</upload_url>
         <disable_account_creation>0</disable_account_creation>
         <uldl_dir_fanout>1024</uldl_dir_fanout>
         <disable_web_account_creation>0</disable_web_account_creation>
-        <download_url>http://172.30.1.102:80/ndist/download</download_url>
+        <download_url>http://172.30.1.32:8089/ndist/download</download_url>
         <db_user>root</db_user>
         <log_dir>/home/boincadm/project/log_ndist</log_dir>
         <enable_delete_account>0</enable_delete_account>
         <app_dir>/home/boincadm/project/apps</app_dir>
         <download_dir>/home/boincadm/project/download</download_dir>
         <fuh_debug_level>3</fuh_debug_level>
-        <master_url>http://172.30.1.102:80/ndist/</master_url>
+        <master_url>http://172.30.1.32:8089/ndist/</master_url>
         <host>ndist</host>
         <db_name>ndist</db_name>
         <shmem_key>0x11113b43</shmem_key>
