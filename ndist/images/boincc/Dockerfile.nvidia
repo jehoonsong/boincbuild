@@ -37,14 +37,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-RUN apt update && apt install -y nano cron
-
-RUN apt update && apt install -y docker.io
-
-RUN apt update && apt install -y vim
-
-RUN apt update && apt install -y rsync make zip unzip
-
-RUN apt update && apt install -y redis
+RUN apt update && apt install -y \
+	nano cron vim docker.io rsync make zip unzip redis 
     
 CMD ["start-boinc.sh"]

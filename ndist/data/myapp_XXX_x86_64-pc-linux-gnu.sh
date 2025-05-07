@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#!/bin/bash
-
 KEY="_counter"
 REDIS_CLI="redis-cli"
 
@@ -28,7 +26,7 @@ while true; do
 		break
 	else
 		echo "[INFO] $KEY is 0 → still looping..."
-		sleep 1
+		sleep 10
 	fi
 done
 
@@ -46,7 +44,7 @@ fi
 tar xvzf INPUT.tgz -C $tmpr
 
 # Run the Docker container using the temporary directory
-docker run --rm -v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 \
+docker run --rm --pull=always -v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 \
 	bash run.sh
 
 # After Docker execution, collect results into OUTPUT.tgz

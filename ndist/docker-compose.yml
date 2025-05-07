@@ -34,7 +34,7 @@ services:
       #- "/dev/null:/run/secrets/keys/code_sign_private"
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports: 
-      - "80:80"
+      - "8089:80"
     tty: true
     environment:
       - URL_BASE
