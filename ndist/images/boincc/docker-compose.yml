@@ -7,25 +7,14 @@ services:
   ndistc:
     build:
       context: .
-        #dockerfile: Dockerfile.arm64v8
       dockerfile: Dockerfile.nvidia
-        #args:
-        #- platform=linux/arm64
     image: ghcr.io/jehoonsong/boincc:latest
-    environment:
-      - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}
-      - BOINC_REMOTE_HOST=${BOINC_REMOTE_HOST}
-      - BOINC_PROJECT_URL=${BOINC_PROJECT_URL}
-      - BOINC_ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
-      - NVIDIA_VISIBLE_DEVICES=all
+    #environment:
     volumes:
       - ndistc_data:/var/lib/boinc
-      - ./shared:/shared
-      - ../../data:/data
       - /tmp:/tmp
-      - ./cc_config.xml:/var/lib/boinc/cc_config.xml
-      - ./cc_config.xml:/var/lib/boinc-client/cc_config.xml
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./app_config.xml:/var/lib/boinc/projects/${BOINC_REMOTE_HOST}_80_ndist/app_config.xml
+      - ./cc_config.xml:/var/lib/boinc/cc_config.xml
+      - ./app_config.xml:${APPCONFDIR}
 
     restart: unless-stopped
