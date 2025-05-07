@@ -1,0 +1,58 @@
+FROM nvidia/cuda:12.8.1-base-ubuntu24.04
+
+LABEL maintainer="BOINC" \
+      description="NVIDIA-savvy (CUDA & OpenCL) BOINC client."
+
+# Global environment settings
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Copy files
+COPY bin/ /usr/bin/
+
+# Configure
+WORKDIR /var/lib/boinc
+
+# BOINC RPC port
+EXPOSE 31416
+
+# Install
+RUN apt-get update && apt-get install -y --no-install-recommends \
+# Install PPA dependency
+    software-properties-common \
+# Install Time Zone Database
+	tzdata && \
+# Install BOINC Client
+    add-apt-repository -y ppa:costamagnagianfranco/boinc && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    boinc-client && \
+# Install Nvidia OpenCL
+    add-apt-repository -y ppa:graphics-drivers && \
+    apt-get update && apt-get install -y --install-recommends \
+    nvidia-opencl-dev && \
+# Cleaning up
+    apt-get remove -y software-properties-common && \
+    apt-get autoremove -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN apt update && apt install -y \
+	nano cron vim docker.io rsync make zip unzip redis 
+    
+ENV BOINC_ACCOUNT_KEY=367e77b2fed5a7f92265ae4eaae7fa1a
+# ENV BOINC_REMOTE_HOST=172.30.1.102
+# http://219.254.89.60:8089/ndist/
+ENV BOINC_PROJECT_URL=http://219.254.89.60:8089/ndist
+#APPCONFDIR=/var/lib/boinc/projects/219.254.89.60_8089_ndist/app_config.xml
+ENV NVIDIA_VISIBLE_DEVICES=all
+
+# Global environment settings
+ENV BOINC_GUI_RPC_PASSWORD="123" \
+    BOINC_REMOTE_HOST="219.254.89.60" 
+
+ENV BOINC_CMD_LINE_OPTIONS="--dir /var/lib/boinc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}"
+
+COPY ./cc_config.xml /var/lib/boinc/cc_config.xml
+COPY ./app_config.xml /var/lib/boinc/projects/${BOINC_REMOTE_HOST}_8089_ndist/app_config.xml
+COPY ./global_prefs_override.xml /var/lib/boinc/global_prefs_override.xml
+COPY ./remote_hosts.cfg /var/lib/boinc/remote_hosts.cfg
+
+CMD ["start-boinc.sh"]

@@ -1,0 +1,26 @@
+version: "2"
+
+volumes:
+  ndistc_data:
+
+services:
+  ndistc:
+    build:
+      context: .
+      dockerfile: Dockerfile.nvidia
+    image: ghcr.io/jehoonsong/boincc:latest
+      #environment:
+      #      - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --allow_remote_gui_rpc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}
+      #      - BOINC_REMOTE_HOST=${BOINC_REMOTE_HOST}
+      #      - BOINC_PROJECT_URL=${BOINC_PROJECT_URL}
+      #      - BOINC_ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
+      #      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ndistc_data:/var/lib/boinc
+      - /tmp:/tmp
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "31416:31416"   
+
+    restart: unless-stopped
+
