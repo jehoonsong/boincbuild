@@ -4,5 +4,10 @@
 		<stdout_filename>stdout</stdout_filename> 
 		<stderr_filename>stderr</stderr_filename>
 		<command_line></command_line>
+		<multi_process/> 
+        <setenv>NTHREADS=20</setenv>
+        <setenv>GPU_DEVICE_NUM=1</setenv>
 	</task>
 </job_desc>
+
+
