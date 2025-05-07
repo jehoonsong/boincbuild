@@ -2,7 +2,11 @@
 
 datadir=`pwd`
 
-prefix="in-"
+prefix="$1"
+
+echo "press ENTER key to continue ..."
+
+read
 
 echo "prefix:" $prefix
 
