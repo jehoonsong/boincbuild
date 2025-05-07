@@ -44,5 +44,7 @@ RUN apt update && apt install -y docker.io
 RUN apt update && apt install -y vim
 
 RUN apt update && apt install -y rsync make zip unzip
+
+RUN apt update && apt install -y redis
     
 CMD ["start-boinc.sh"]
