@@ -10,6 +10,8 @@ crontab -l 2>/dev/null | grep -q "boinccmd" || \
 service cron start
 # service cron status
 
+service redis-server start
+
 # Run BOINC. Full path needs for GPU support.
 exec /usr/bin/boinc $BOINC_CMD_LINE_OPTIONS
 
