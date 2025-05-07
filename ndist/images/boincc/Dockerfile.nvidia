@@ -46,5 +46,14 @@ RUN apt update && apt install -y vim
 RUN apt update && apt install -y rsync make zip unzip
 
 RUN apt update && apt install -y redis
-    
+
+RUN apt update
+
+RUN apt install libboinc-app-dev -y
+
+COPY report_progress.c .
+# RUN gcc report_progress -o report_progress -lboinc -I/usr/include/boinc  
+
 CMD ["start-boinc.sh"]
+
+
