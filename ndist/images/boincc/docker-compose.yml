@@ -9,33 +9,22 @@ services:
       context: .
       dockerfile: Dockerfile.nvidia
     image: ghcr.io/jehoonsong/boincc:latest
-<<<<<<< HEAD
-    #environment:
-=======
     environment:
       - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --allow_remote_gui_rpc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}
       - BOINC_REMOTE_HOST=${BOINC_REMOTE_HOST}
       - BOINC_PROJECT_URL=${BOINC_PROJECT_URL}
       - BOINC_ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
       - NVIDIA_VISIBLE_DEVICES=all
->>>>>>> 00904de73d870f46ad7396e2925a351132823dfc
     volumes:
       - ndistc_data:/var/lib/boinc
       - /tmp:/tmp
       - /var/run/docker.sock:/var/run/docker.sock
       - ./cc_config.xml:/var/lib/boinc/cc_config.xml
-<<<<<<< HEAD
-      - ./app_config.xml:${APPCONFDIR}
-=======
       - ./app_config.xml:/var/lib/boinc/projects/${BOINC_REMOTE_HOST}_80_ndist/app_config.xml
       - ./global_prefs_override.xml:/var/lib/boinc/global_prefs_override.xml
-<<<<<<< HEAD
->>>>>>> 00904de73d870f46ad7396e2925a351132823dfc
-=======
       - ./remote_hosts.cfg:/var/lib/boinc/remote_hosts.cfg
     ports:
       - "31416:31416"   
       - "80:80"      
->>>>>>> 1731729bda34cd1c6c440428b1cf4cf36512cea7
 
     restart: unless-stopped
