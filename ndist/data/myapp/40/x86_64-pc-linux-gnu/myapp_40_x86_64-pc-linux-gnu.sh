@@ -14,7 +14,7 @@ fi
 tar xvzf INPUT.tgz -C $tmpr
 
 # Run the Docker container using the temporary directory
-docker run --rm -v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 \
+docker run --pull=always --rm -v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 \
 	bash run.sh
 
 # After Docker execution, collect results into OUTPUT.tgz
