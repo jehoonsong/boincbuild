@@ -27,5 +27,6 @@ services:
       - ./cc_config.xml:/var/lib/boinc-client/cc_config.xml
       - /var/run/docker.sock:/var/run/docker.sock
       - ./app_config.xml:/var/lib/boinc/projects/${BOINC_REMOTE_HOST}_80_ndist/app_config.xml
+      - ./global_prefs_override.xml:/var/lib/boinc/global_prefs_override.xml
 
     restart: unless-stopped
