@@ -37,7 +37,29 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
+<<<<<<< HEAD
+RUN apt update && apt install -y nano cron
+
+RUN apt update && apt install -y docker.io
+
+RUN apt update && apt install -y vim
+
+RUN apt update && apt install -y rsync make zip unzip
+
+RUN apt update && apt install -y redis
+
+RUN apt update
+
+RUN apt install libboinc-app-dev -y
+
+COPY report_progress.c .
+# RUN gcc report_progress -o report_progress -lboinc -I/usr/include/boinc  
+
+=======
 RUN apt update && apt install -y \
 	nano cron vim docker.io rsync make zip unzip redis 
     
+>>>>>>> b1f72ab0e678b17537ccf1dc5356e1de7f5fe935
 CMD ["start-boinc.sh"]
+
+
