@@ -20,11 +20,11 @@ services:
       - /tmp:/tmp
       - /var/run/docker.sock:/var/run/docker.sock
       - ./cc_config.xml:/var/lib/boinc/cc_config.xml
-      - ./app_config.xml:/var/lib/boinc/projects/${BOINC_REMOTE_HOST}_80_ndist/app_config.xml
+      - ./app_config.xml:/var/lib/boinc/projects/${BOINC_REMOTE_HOST}_8089_ndist/app_config.xml
       - ./global_prefs_override.xml:/var/lib/boinc/global_prefs_override.xml
       - ./remote_hosts.cfg:/var/lib/boinc/remote_hosts.cfg
     ports:
       - "31416:31416"   
-      - "80:80"      
+        #      - "80:80"      
 
     restart: unless-stopped

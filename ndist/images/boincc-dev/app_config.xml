@@ -18,6 +18,24 @@
         <ngpus>1.0</ngpus>
         <cmdline></cmdline>
     </app_version>
+    <app>
+        <name>default</name>
+        <max_concurrent>1</max_concurrent> 
+        <gpu_versions>
+            <gpu_usage>1.0</gpu_usage>    
+            <cpu_usage>1.0</cpu_usage>     
+        </gpu_versions>
+
+        <fraction_done_exact>1</fraction_done_exact> 
+        <report_results_immediately>1</report_results_immediately> 
+    </app>
+    <app_version>
+        <app_name>default</app_name>
+        <plan_class>mt</plan_class>
+        <avg_ncpus>1.0</avg_ncpus>
+        <ngpus>1.0</ngpus>
+        <cmdline></cmdline>
+    </app_version>
     <project_max_concurrent>1</project_max_concurrent>
     <report_results_immediately>1</report_results_immediately>
 </app_config>
