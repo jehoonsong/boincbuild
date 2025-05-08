@@ -1,0 +1,57 @@
+FROM nvidia/cuda:12.8.1-base-ubuntu24.04
+
+LABEL maintainer="BOINC" \
+      description="NVIDIA-savvy (CUDA & OpenCL) BOINC client."
+
+# Global environment settings
+ENV BOINC_GUI_RPC_PASSWORD="123" \
+    BOINC_REMOTE_HOST="127.0.0.1" \
+    BOINC_CMD_LINE_OPTIONS="" \
+	DEBIAN_FRONTEND=noninteractive
+
+# Copy files
+COPY bin/ /usr/bin/
+
+# Configure
+WORKDIR /var/lib/boinc
+
+# BOINC RPC port
+EXPOSE 31416
+
+# Install
+RUN apt-get update && apt-get install -y --no-install-recommends \
+# Install PPA dependency
+    software-properties-common \
+# Install Time Zone Database
+	tzdata && \
+# Install BOINC Client
+    add-apt-repository -y ppa:costamagnagianfranco/boinc && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    boinc-client && \
+# Install Nvidia OpenCL
+    add-apt-repository -y ppa:graphics-drivers && \
+    apt-get update && apt-get install -y --install-recommends \
+    nvidia-opencl-dev && \
+# Cleaning up
+    apt-get remove -y software-properties-common && \
+    apt-get autoremove -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN apt update && apt install -y \
+	nano cron vim docker.io rsync make zip unzip redis 
+
+RUN apt update && apt install -y git build-essential libssl-dev libcurl4-openssl-dev \
+    wx-common libtool automake autoconf pkg-config \
+    libgtk-3-dev libsqlite3-dev
+
+#e libwxgtk3.0-gtk3-dev
+#4.857 E: Couldn't find any package by glob 'libwxgtk3.0-gtk3-dev'
+RUN apt update && apt install libwxgtk3.2-dev wx3.2-headers -y 
+RUN git clone https://github.com/BOINC/boinc.git 
+
+RUN apt update && apt install libnotify-dev -y 
+
+#RUN cd boinc && ./_autosetup && mkdir build && cd build && ../configure --disable-server && make -j$(nproc)
+    
+# CMD ["start-boinc.sh"]
+

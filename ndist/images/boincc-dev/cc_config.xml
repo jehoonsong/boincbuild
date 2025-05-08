@@ -1,0 +1,12 @@
+<cc_config>
+  <allow_remote_gui_rpc>1</allow_remote_gui_rpc>
+  <log_flags>
+    <task>1</task>
+    <file_xfer>1</file_xfer>
+    <sched_ops>1</sched_ops>
+  </log_flags>
+  <options>
+  <abort_jobs_on_exit>1</abort_jobs_on_exit>
+  <allow_remote_gui_rpc>1</allow_remote_gui_rpc>
+  </options>
+</cc_config>
