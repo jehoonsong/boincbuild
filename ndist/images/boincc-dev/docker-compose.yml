@@ -8,7 +8,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.nvidia
-    image: ghcr.io/jehoonsong/boincc:latest
+    image: ghcr.io/jehoonsong/ndist-boinc:latest
     environment:
       - BOINC_CMD_LINE_OPTIONS=--dir /var/lib/boinc --allow_remote_gui_rpc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}
       - BOINC_REMOTE_HOST=${BOINC_REMOTE_HOST}

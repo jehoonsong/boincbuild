@@ -40,19 +40,36 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt update && apt install -y \
 	nano cron vim docker.io rsync make zip unzip redis 
 
-RUN apt update && apt install -y git build-essential libssl-dev libcurl4-openssl-dev \
-    wx-common libtool automake autoconf pkg-config \
-    libgtk-3-dev libsqlite3-dev
+# boinc build:
+#RUN apt update && apt install -y git build-essential libssl-dev libcurl4-openssl-dev \
+#    wx-common libtool automake autoconf pkg-config \
+#    libgtk-3-dev libsqlite3-dev
+#WORKDIR /
+#RUN apt update && apt install libwxgtk3.2-dev wx3.2-headers -y 
+#RUN apt update && apt install libnotify-dev -y 
+#RUN mkdir -p src && cd src && git clone https://github.com/BOINC/boinc.git 
+#RUN cd src/boinc && ./_autosetup && ./configure --disable-client --disable-server LDFLAGS=-static-libgcc CFLAGS=-ftree-vectorize CXXFLAGS=-ftree-vectorize FFLAGS=-ftree-vectorize --disable-manager && make -j$(nproc)
 
-WORKDIR /
-RUN apt update && apt install libwxgtk3.2-dev wx3.2-headers -y 
-RUN apt update && apt install libnotify-dev -y 
-RUN mkdir -p src && cd src && git clone https://github.com/BOINC/boinc.git 
-RUN cd src/boinc && ./_autosetup && ./configure --disable-client --disable-server LDFLAGS=-static-libgcc CFLAGS=-ftree-vectorize CXXFLAGS=-ftree-vectorize FFLAGS=-ftree-vectorize --disable-manager && make -j$(nproc)
-
-COPY boinc_progress src/boinc/samples/boinc_progress
-RUN cd src/boinc/samples/boinc_progress && make && cp boinc_progress /usr/bin
+#COPY boinc_progress src/boinc/samples/boinc_progress
+#RUN cd src/boinc/samples/boinc_progress && make && cp boinc_progress /usr/bin
 
 WORKDIR /var/lib/boinc
-    
+ 
+ENV BOINC_ACCOUNT_KEY=367e77b2fed5a7f92265ae4eaae7fa1a
+ENV BOINC_REMOTE_HOST=219.254.89.60
+ENV BOINC_PROJECT_URL=http://219.254.89.60:8089/ndist
+ENV APPCONFDIR=/var/lib/boinc/projects/219.254.89.60_8089_ndist/app_config.xml
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV BOINC_CMD_LINE_OPTIONS="--dir /var/lib/boinc --attach_project ${BOINC_PROJECT_URL} ${BOINC_ACCOUNT_KEY}"
+
+COPY ./cc_config.xml /var/lib/boinc/cc_config.xml
+COPY ./app_config.xml /var/lib/boinc/projects/${BOINC_REMOTE_HOST}_8089_ndist/app_config.xml
+COPY ./global_prefs_override.xml /var/lib/boinc/global_prefs_override.xml
+COPY ./remote_hosts.cfg /var/lib/boinc/remote_hosts.cfg
+
 CMD ["start-boinc.sh"]
+
+#      - ndistc_data:/var/lib/boinc
+#      - /tmp:/tmp
+#      - /var/run/docker.sock:/var/run/docker.sock
+
