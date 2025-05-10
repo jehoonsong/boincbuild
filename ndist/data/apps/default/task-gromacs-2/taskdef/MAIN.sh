@@ -3,6 +3,9 @@
 #sudo apt install redis 
 #service redis-server start
 
+# this is for progressbar
+MAX_SIZE_MB=600
+
 KEY="_counter"
 REDIS_CLI="redis-cli"
 
@@ -33,6 +36,7 @@ trap CLEANUP EXIT INT TERM
 
 if [ "$1" == "debug" ]; then
   echo "debug mode"
+  rm -f INPUT.tgz && tar cvzf INPUT.tgz .
 else
   while true; do
     if ! result=$($REDIS_CLI EVAL "$LUA_SCRIPT" 1 "$KEY" 2>/dev/null); then
@@ -57,7 +61,6 @@ echo "Working in temporary directory: $tmpr"
 tar xvzf INPUT.tgz -C $tmpr
 
 WATCH_DIR=$tmpr
-MAX_SIZE_MB=600
 OUTPUT_FILE="fraction_done"
 monitor_size() {
   while true; do
@@ -75,16 +78,14 @@ monitor_pid=$!
 # Run the Docker container using the temporary directory
 CONTAINER_NAME="temp_$(mktemp -u XXXXXX)"
 docker run --name $CONTAINER_NAME --gpus all --rm --pull=always \
-	-v /tmp:/tmp -w "$tmpr" \
-	docker.io/gromacs/gromacs:gmx-2022.2-cuda-11.6.0-avx bash run_short.sh
+	-v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 bash run_short.sh
 
-# ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 bash run_short.sh
 # After Docker execution, collect results into OUTPUT.tgz
-mkdir gromacs && cp -r $tmpr/* gromacs/
+mkdir result && cp -r $tmpr/* result/
 tar cvzf OUTPUT.tgz .
 
 # Cleanup (optional)
-# rm -rf "$tmpr"
+rm -rf "$tmpr"
 
 echo "bye!"
 
