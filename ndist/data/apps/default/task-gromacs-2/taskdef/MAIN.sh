@@ -80,7 +80,7 @@ docker run --name $CONTAINER_NAME --gpus all --rm --pull=always \
 
 # ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 bash run_short.sh
 # After Docker execution, collect results into OUTPUT.tgz
-mkdir gromacs && cp -r $tmpr/* gromacs/
+mkdir -p result && cp -r $tmpr/* result/
 tar cvzf OUTPUT.tgz .
 
 # Cleanup (optional)
