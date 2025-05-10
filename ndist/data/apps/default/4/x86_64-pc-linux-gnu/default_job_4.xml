@@ -4,7 +4,5 @@
 		<stdout_filename>stdout</stdout_filename> 
 		<stderr_filename>stderr</stderr_filename>
 		<command_line></command_line>
-		<fraction_done_filename>fraction_done</fraction_done_filename>
-		<multi_process/>
 	</task>
 </job_desc>

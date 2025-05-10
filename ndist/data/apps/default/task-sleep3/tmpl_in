@@ -1,0 +1,15 @@
+<input_template>
+  <file_info>
+    <number>0</number>
+  </file_info>
+  <workunit>
+    <file_ref>
+      <file_number>0</file_number>
+      <open_name>INPUT.tgz</open_name>
+      <copy_file/>
+    </file_ref>
+    <min_quorum>1</min_quorum>
+    <target_nresults>1</target_nresults>
+    <command_line>--device 1 --nthreads 20 --trickle 5</command_line> 
+  </workunit>
+</input_template>

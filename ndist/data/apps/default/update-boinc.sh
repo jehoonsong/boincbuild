@@ -3,6 +3,7 @@ echo "version: $version"
 
 read 
 
+mkdir -p /home/boincadm/project/apps/default
 cp -vr $version /home/boincadm/project/apps/default
 # cp -vr /data/templates/* /home/boincadm/project/templates/
 
