@@ -2,6 +2,7 @@ all:
 	nohup sh run.sh 2>&1 | tee run.log  
 
 clean:
+	rm -rf INPUT.tgz OUTPUT.tgz gromacs fraction_done
 	rm -rf em.* protein.pdb step*.pdb
 	rm -rf ions.*
 	rm -rf npt.*

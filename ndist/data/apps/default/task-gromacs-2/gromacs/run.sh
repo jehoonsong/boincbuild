@@ -19,7 +19,7 @@ calculate_time() {
 # Record start time
 START_TIME=$(date +%s)
 
-NTOMP=23
+NTOMP=$(nproc)
 
 # Common MDP parameters definition 
 COMMON_MDP_PARAMS=$(cat << 'EOF'
