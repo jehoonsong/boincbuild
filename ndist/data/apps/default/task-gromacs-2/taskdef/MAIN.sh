@@ -75,8 +75,10 @@ monitor_pid=$!
 # Run the Docker container using the temporary directory
 CONTAINER_NAME="temp_$(mktemp -u XXXXXX)"
 docker run --name $CONTAINER_NAME --gpus all --rm --pull=always \
-	-v /tmp:/tmp -w "$tmpr" ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 bash run_short.sh
+	-v /tmp:/tmp -w "$tmpr" \
+	docker.io/gromacs/gromacs:gmx-2022.2-cuda-11.6.0-avx bash run_short.sh
 
+# ghcr.io/nettargets/gromacs:gmx-2025.2-cuda-12.8 bash run_short.sh
 # After Docker execution, collect results into OUTPUT.tgz
 mkdir gromacs && cp -r $tmpr/* gromacs/
 tar cvzf OUTPUT.tgz .
